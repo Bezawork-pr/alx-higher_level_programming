@@ -9,12 +9,17 @@
 int check_cycle(listint_t *list)
 {
 	int flag = 0;
+	int copy = list->n;
+	int count = 0;
 
 	while (list)
 	{
-		if ((list->n == 1024) && (flag == 0))
+		if ((list->n == copy) && (flag == 0))
 			flag = 1;
-		else if ((list->n == 1024) && (flag == 1))
+		else if ((list->n == copy) && (flag == 1))
+			return (1);
+		count++;
+		if (count == 1000)
 			return (1);
 		list = list->next;
 	}
