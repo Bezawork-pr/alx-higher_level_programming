@@ -9,9 +9,11 @@
 int check_cycle(listint_t *list)
 {
 	int flag = 0;
-	int copy = list->n;
+	int copy;
 	int count = 0;
 
+	if (list)
+		copy = list->n;
 	while (list)
 	{
 		if ((list->n == copy) && (flag == 0))
