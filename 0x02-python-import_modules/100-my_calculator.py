@@ -13,24 +13,26 @@ if __name__ == "__main__":
             flag = 1
         elif flag == 1:
             a = int(i)
+            astring = i
             flag = 2
         elif flag == 2:
             sign = i
             flag = 3
         elif flag == 3:
             b = int(i)
+            bstring = i
             if sign == "+":
                 result = a + b
-                print("{:d} + {:d} = {:d}".format(a, b, result))
+                print("{:s} + {:s} = {:d}".format(astring, bstring, result))
             elif sign == '-':
                 result = a - b
-                print("{:d} - {:d} = {:d}".format(a, b, result))
+                print("{:s} - {:s} = {:d}".format(astring, bstring, result))
             elif sign == '*':
                 result = a * b
-                print("{:d} * {:d} = {:d}".format(a, b, result))
+                print("{:s} * {:s} = {:d}".format(astring, bstring, result))
             elif sign == '/':
                 result = a / b
-                print("{:d} / {:d} = {:d}".format(a, b, result))
+                print("{:s} / {:s} = {:d}".format(astring, bstring, result))
             else:
                 print("Unknown operator. Available operators: +, -, * and /")
                 exit(1)
