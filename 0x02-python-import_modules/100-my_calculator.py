@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     import sys
+    import calculator_1 as calc
 
     flag = 0
     a = 0
@@ -22,16 +23,16 @@ if __name__ == "__main__":
             b = int(i)
             bstring = i
             if sign == "+":
-                result = a + b
+                result = calc.add(a, b)
                 print("{:s} + {:s} = {:d}".format(astring, bstring, result))
             elif sign == '-':
-                result = a - b
+                result = calc.sub(a, b)
                 print("{:s} - {:s} = {:d}".format(astring, bstring, result))
             elif sign == '*':
-                result = a * b
+                result = calc.mul(a, b)
                 print("{:s} * {:s} = {:d}".format(astring, bstring, result))
             elif sign == '/':
-                result = a / b
+                result = calc.div(a, b)
                 print("{:s} / {:s} = {:d}".format(astring, bstring, result))
             else:
                 print("Unknown operator. Available operators: +, -, * and /")
