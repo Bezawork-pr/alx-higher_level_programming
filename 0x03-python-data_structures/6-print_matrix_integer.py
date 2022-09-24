@@ -10,7 +10,7 @@ def print_matrix_integer(matrix=[[]]):
     for i in range(matrix_length):
         for y in matrix[i]:
             if counter != matrix_length - 1:
-                print("{:d}".format(y), end=" ")
+                print("{:d} ".format(y), end="")
                 counter += 1
             else:
                 print("{:d}".format(y))
