@@ -1,25 +1,6 @@
 #include <stdlib.h>
 #include "lists.h"
-/**
- * counter - counts how many nodes in a list
- *
- * @temp: head of linked list
- *
- * Return: number of nodes
- */
-int counter(listint_t *temp)
-{
-	int i = 0;
-
-	if (temp == NULL || temp->next == NULL)
-		return (0);
-	while (temp)
-	{
-		i++;
-		temp = temp->next;
-	}
-	return (i - 1);
-}
+int counter(listint_t *temp);
 /**
  * is_palindrome - checks if linked list is palindrome
  *
@@ -54,4 +35,24 @@ int is_palindrome(listint_t **head)
 			return (0);
 	}
 	return (1);
+}
+/**
+ * counter - counts how many nodes in a list
+ *
+ * @temp: head of linked list
+ *
+ * Return: number of nodes
+ */
+int counter(listint_t *temp)
+{
+	int i = 0;
+
+	if (temp == NULL || temp->next == NULL)
+		return (0);
+	while (temp)
+	{
+		i++;
+		temp = temp->next;
+	}
+	return (i - 1);
 }
