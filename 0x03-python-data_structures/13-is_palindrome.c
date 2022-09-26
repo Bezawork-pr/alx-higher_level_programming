@@ -6,14 +6,14 @@
  *
  * Return: number of nodes
  */
-int counter(listint_t **head)
+int counter(listint_t *temp)
 {
 	int i = 0;
 
-	while (*head)
+	while (temp)
 	{
 		i++;
-		*head = (*head)->next;
+		temp = temp->next;
 	}
 	return (i - 1);
 }
@@ -28,14 +28,15 @@ int counter(listint_t **head)
 int is_palindrome(listint_t **head)
 {
 	listint_t *temp = *head;
-	int i = 0, n = 0, listsize = counter(head);
+	listint_t *temp2 = *head;
+	int i = 0, n = 0, listsize = counter(temp);
 	int arrayforint[listsize];
 
-	while (temp)
+	while (temp2)
 	{
-		arrayforint[i] = temp->n;
+		arrayforint[i] = temp2->n;
 		i++;
-		temp = temp->next;
+		temp2 = temp2->next;
 	}
 	while (n <= listsize)
 	{
