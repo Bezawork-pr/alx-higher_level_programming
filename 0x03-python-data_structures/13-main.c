@@ -12,7 +12,10 @@ int main(void)
     listint_t *head;
 
     head = NULL;
-    add_nodeint_end(&head, 1);
+    add_nodeint_end(&head, 11);
+    add_nodeint_end(&head, 15);
+    add_nodeint_end(&head, 11);
+    add_nodeint_end(&head, 14);
     print_listint(head);
 
     if (is_palindrome(&head) == 1)
