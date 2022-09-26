@@ -32,7 +32,7 @@ int is_palindrome(listint_t **head)
 	listint_t *temp2 = *head;
 	int i = 0, n = 0, listsize = counter(temp);
 	int arrayforint[listsize];
-	if (*head == NULL)
+	if (*head == NULL || (*head)->next == NULL)
 		return (1);
 
 	while (temp2)
