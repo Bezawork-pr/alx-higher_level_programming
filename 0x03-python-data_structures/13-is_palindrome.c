@@ -64,10 +64,12 @@ int is_palindrome(listint_t **head)
 	listint_t *temp;
 	listint_t *copyhead;
 	listint_t *anothercphead;
+	listint_t *foriterating;
+	listint_t *forfreeing;
 
 	copyhead = *head;
 	anothercphead = *head;
-	temp = malloc(sizeof(listint_t) * 100);
+	foriterating = *head;
 	temp = NULL;
 	if (*head == NULL)
 		return (1);
@@ -77,17 +79,17 @@ int is_palindrome(listint_t **head)
 		reverse(&temp, anothercphead);
 		anothercphead = anothercphead->next;
 	}
-	while (*head)
+	forfreeing = temp;
+	while (foriterating != NULL)
 	{
-		if ((*head)->n != (temp->n))
+		if (foriterating->n != (temp->n))
 		{
-			free_listint(temp);
+			free_listint(forfreeing);
 			return (0);
 		}
 		temp = temp->next;
-		*head = (*head)->next;
+		foriterating = foriterating->next;
 	}
-	free_listint(temp);
-
+	free_listint(forfreeing);
 	return (1);
 }
