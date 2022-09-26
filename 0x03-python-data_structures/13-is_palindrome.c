@@ -1,4 +1,5 @@
 #include "lists.h"
+int counter(istint_t *temp);
 /**
  * counter - counts how many nodes in a list
  *
