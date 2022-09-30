@@ -12,7 +12,7 @@ def roman_to_int(roman_string):
             "V": 5,
             "I": 1
             }
-    if (isinstance(roman_string, int) == True):
+    if (isinstance(roman_string, int)):
         return 0
     if roman_string:
         for i in roman_string:
