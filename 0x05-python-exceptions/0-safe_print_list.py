@@ -1,8 +1,8 @@
 def safe_print_list(my_list=[], x=0):
     count = 1
-    for i in my_list:
+    for i in range(0, x):
         try:
-            print("{}".format(i), end="")
+            print("{}".format(my_list[i]), end="")
             if count == x:
                 break
             count += 1
