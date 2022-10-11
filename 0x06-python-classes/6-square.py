@@ -42,7 +42,7 @@ class Square:
         while width != 0:
             height = self.__size
             position = self.__position[0]
-            if position != 0:
+            while position != 0:
                 print(" ", end="")
                 position -= 1
             while height != 0:
