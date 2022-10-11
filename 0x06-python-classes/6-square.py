@@ -23,6 +23,8 @@ class Square:
         """Set position"""
         if value[0] or value[1] < 0:
             raise TypeError("position must be a tuple of 2 positive integers")
+        if len(value) != 2 or type(value) != tuple:
+            raise TypeError("position must be a tuple of 2 positive integers")
         self.__position = value
 
     def area(self):
@@ -40,7 +42,7 @@ class Square:
         while width != 0:
             height = self.__size
             position = self.__position[0]
-            while position != 0:
+            if position != 0:
                 print(" ", end="")
                 position -= 1
             while height != 0:
