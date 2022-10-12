@@ -3,8 +3,9 @@
 
 
 class Node:
+    """Create New node. This class is going to set data of node"""
     def __init__(self, data, next_node=None):
-        """Create New node"""
+        """init function"""
         if type(data) is not int:
             raise TypeError("data must be an integer")
         if next_node is not None and isinstance(next_node, Node) is False:
