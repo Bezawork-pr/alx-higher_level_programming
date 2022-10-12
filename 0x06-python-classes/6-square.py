@@ -10,8 +10,8 @@ class Square:
     public instance method area returns area of square"""
     def __init__(self, size=0, position=(0, 0)):
         """initialize Square"""
-        self.__size = size
-        self.__position = position
+        self.size = size
+        self.position = position
 
     @property
     def position(self):
@@ -23,7 +23,9 @@ class Square:
         """Set position"""
         if value[0] or value[1] < 0:
             raise TypeError("position must be a tuple of 2 positive integers")
-        if len(value) != 2 or type(value) != tuple:
+        if type(value) is not tuple:
+            raise TypeError("position must be a tuple of 2 positive integers")
+        if len(value) != 2:
             raise TypeError("position must be a tuple of 2 positive integers")
         self.__position = value
 
