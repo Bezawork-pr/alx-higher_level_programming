@@ -10,8 +10,33 @@ class Square:
     public instance method area returns area of square"""
     def __init__(self, size=0, position=(0, 0)):
         """initialize Square"""
+        if isinstance(position, tuple) is False:
+            raise TypeError("position must be a tuple of 2 positive integers")
+        if len(position) != 2:
+            raise TypeError("position must be a tuple of 2 positive integers")
+        if type(position[0]) is not int:
+            raise TypeError("position must be a tuple of 2 positive integers")
+        if type(position[1]) is not int:
+            raise TypeError("position must be a tuple of 2 positive integers")
+        if position[0] < 0 or position[1] < 0:
+            raise TypeError("position must be a tuple of 2 positive integers")
         self.size = size
         self.position = position
+
+    @property
+    def size(self):
+        """Get size"""
+        return self.__size
+
+    @size.setter
+    def size(self, value):
+        """Set size"""
+        if isinstance(value, int) is False:
+            raise TypeError("size must be an integer")
+        if value < 0:
+            raise ValueError("size must be >= 0")
+
+        self.__size = value
 
     @property
     def position(self):
@@ -21,12 +46,6 @@ class Square:
     @position.setter
     def position(self, value):
         """Set position"""
-        if value[0] or value[1] < 0:
-            raise TypeError("position must be a tuple of 2 positive integers")
-        if type(value) is not tuple:
-            raise TypeError("position must be a tuple of 2 positive integers")
-        if len(value) != 2:
-            raise TypeError("position must be a tuple of 2 positive integers")
         self.__position = value
 
     def area(self):
@@ -52,18 +71,3 @@ class Square:
                 height -= 1
             width -= 1
             print()
-
-    @property
-    def size(self):
-        """Get size"""
-        return self.__size
-
-    @size.setter
-    def size(self, value):
-        """Set size"""
-        if isinstance(value, int) is False:
-            raise TypeError("size must be an integer")
-        if value < 0:
-            raise ValueError("size must be >= 0")
-
-        self.__size = value
