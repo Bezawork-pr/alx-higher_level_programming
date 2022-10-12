@@ -4,6 +4,7 @@
 
 class Node:
     def __init__(self, data, next_node=None):
+        """Create New node"""
         if type(data) is not int:
             raise TypeError("data must be an integer")
         if next_node is not None and isinstance(next_node, Node) is False:
@@ -13,27 +14,33 @@ class Node:
 
     @property
     def data(self):
+        """Getter"""
         return self.__data
 
     @data.setter
     def data(self, value):
+        """Setter"""
         self.__data = value
 
     @property
     def next_node(self):
+        """getter"""
         return self.__next
 
     @next_node.setter
     def next_node(self, value):
+        """Setter"""
         self.__next = value
 
 
 class SinglyLinkedList:
     """Create a class named SinglyLinkedList"""
     def __init__(self):
+        """Set head here"""
         self.head = None
 
     def sorted_insert(self, value):
+        """Utilize Node class to creat linked list"""
         if type(value) is not int:
             raise TypeError("data must be an integer")
 
@@ -53,6 +60,7 @@ class SinglyLinkedList:
             return
 
     def __str__(self):
+        """sort and make it printable"""
         res = ""
         copy = self.head
         reslist = []
