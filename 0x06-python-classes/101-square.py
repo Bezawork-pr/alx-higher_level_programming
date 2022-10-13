@@ -93,7 +93,7 @@ class Square:
                 while width != 0:
                     string += "#"
                     width -= 1
-                if second_position != 0:
+                if second_position != 1:
                     string += " "
                     second_position -= 1
                 height -= 1
