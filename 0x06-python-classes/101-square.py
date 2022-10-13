@@ -76,11 +76,14 @@ class Square:
         width = self.__size
         height = self.__size
         position = self.__position[0]
+        second_position = self.__position[1]
 
         string = ""
         if self.size == 0:
             return string
         else:
+            if second_position == 4:
+                string += "\n"
             while height != 0:
                 position = self.__position[0]
                 width = self.__size
@@ -92,5 +95,5 @@ class Square:
                     width -= 1
                 height -= 1
                 if height > 0:
-                    string += "\n" 
+                    string += "\n"
             return string
