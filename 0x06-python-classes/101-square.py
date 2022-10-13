@@ -73,5 +73,23 @@ class Square:
             print()
 
     def __str__(self):
+        width = self.__size
+        height = self.__size
+        position = self.__position[0]
+
+        string = ""
         if self.size == 0:
-            return ""
+            return string
+        else:
+            while height != 0:
+                position = self.__position[0]
+                width = self.__size
+                string += "\n"
+                while position != 0:
+                    string += " "
+                    position -= 1
+                while width != 0:
+                    string += "#"
+                    width -= 1
+                height -= 1
+            return string
