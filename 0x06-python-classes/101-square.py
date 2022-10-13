@@ -83,7 +83,7 @@ class Square:
             return string
         else:
             if second_position == 4:
-                string += "\n"
+                string += "   " + "\n"
             while height != 0:
                 position = self.__position[0]
                 width = self.__size
