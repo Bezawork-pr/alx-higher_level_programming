@@ -54,6 +54,8 @@ class Rectangle:
         returnable = ""
         height = self.height
         width = self.width
+        if height == 0 or width == 0:
+            return returnable
         while height != 0:
             width = self.width
             while width != 0:
