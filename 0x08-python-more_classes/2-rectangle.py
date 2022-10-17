@@ -37,3 +37,11 @@ class Rectangle:
     def height(self, value):
         """Setter"""
         self.__height = value
+
+    def area(self):
+        """Calculate area"""
+        return self.height * self.width
+
+    def perimeter(self):
+        """Calculate parameter"""
+        return 2 * (self.height + self.width)
