@@ -1,0 +1,201 @@
+#0-add_integer.txt
+
+===================================
+The ``add_integer`` module
+===================================
+
+Using ``add_integer``
+-------------------
+
+This is test file.  First import
+``add_integer`` from the ``0-add_integer`` module:
+
+
+	>>> add_integer = __import__('0-add_integer').add_integer
+
+
+NO PARAMETER
+============
+
+``add_integer`` return traceback:
+
+Test when Parameter a is empty and b is empty:
+	>>> add_integer()
+	Traceback (most recent call last):
+	TypeError: add_integer() missing 1 required positional argument: 'a'
+
+Test when one Parameter is given:
+	>>> add_integer(2)
+	100
+
+NONE
+====
+
+Test for none:
+	>>> add_integer(None, 4)
+	Traceback (most recent call last):
+	TypeError: a must be an integer
+
+
+PRIMITIVE DATA-TYPE AS A PARAMETER
+==================================
+
+``add_integer`` return the sum of its arguments
+Accepts parameter int and float 
+But return only int
+
+
+
+Bool
+====
+``add_integer`` Dont substitute True for 1
+
+Test when a is bool:
+	>>> add_integer(True, 5) #doctest: +DONT_ACCEPT_TRUE_FOR_1
+	Traceback (most recent call last):
+	TypeError: a must be an integer
+	
+Test when b is bool:
+	>>> add_integer(5, True) #doctest: +DONT_ACCEPT_TRUE_FOR_1
+	Traceback (most recent call last):
+	TypeError: b must be an integer
+
+
+Integer
+========
+
+Basic usage i.e add two positive ints:
+	
+	>>> add_integer(5, 4)
+	9
+
+Basic usage i.e add two negative ints:
+
+	>>> add_integer(-5, -4)
+	-9
+
+Basic usage i.e a is positive and b is negative:
+
+	>>> add_integer(5, -4)
+	1
+
+Basic usage i.e a is Negative and b is positive:
+
+	>>> add_integer(-5, 4)
+	-1
+
+Large int use:
+	>>> add_integer(9725e4888, 90111e777)
+	Traceback (most recent call last):
+	...
+	OverflowError: cannot convert float infinity to integer
+
+Check if return Value is int:
+	>>> sum = add_integer(8, 10)
+	>>> type(sum) is int
+	True
+
+
+
+Float
+=====
+
+convert float to int and add:
+	>>> add_integer(9.9, 1)
+	10
+
+convert float to int and add when a is positive and b is negative:
+	>>> add_integer(9.9, -1)
+	8
+
+convert float to int and add when a is negative abd b is positive:
+	>>> add_integer(-9.9, 1)
+	-8
+
+convert float to int and add when both and b are negative:
+	>>> add_integer(-9.9, -1)
+	-10
+
+
+Strings
+=======
+
+Raise error when a is other than int and float:
+	>>> add_integer("ab", 2)
+	Traceback (most recent call last):
+	TypeError: a must be an integer
+
+Raise error when b is other than int and float:
+	>>> add_integer(2, "bv")
+	Traceback (most recent call last):
+	TypeError: b must be an integer
+
+
+NON-PRIMITIVE DATA-TYPE AS A PARAMETER
+======================================
+
+Lists
+=====
+Raise error when a is a list:
+	>>> add_integer([90, 4], 8)
+	Traceback (most recent call last):
+	TypeError: a must be an integer
+
+Raise error when b is a list:
+	>>> add_integer(0, [0, 9])
+	Traceback (most recent call last):
+	TypeError: b must be an integer
+
+
+Tuple
+=====
+Raise error when a is a tuple:
+	>>> add_integer((3, 6), 9)
+	Traceback (most recent call last):
+	TypeError: a must be an integer
+
+Raise error when b is a tuple:
+	>>> add_integer(0, (0, 9))
+	Traceback (most recent call last):
+	TypeError: b must be an integer
+
+
+Dictionary
+===========
+Raise error when a is a dictionary:
+	>>> add_integer({"Cat": 1, "Dog": 2}, 6)
+	Traceback (most recent call last):
+	TypeError: a must be an integer
+
+Raise error when b is a dictionary:
+	>>> add_integer(0, {"Cat": 1, "Dog": 2})
+	Traceback (most recent call last):
+	TypeError: b must be an integer
+
+
+Sets
+====
+Raise error when a is a set:
+	>>> add_integer({0, 9, 8}, 0)
+	Traceback (most recent call last): 
+	TypeError: a must be an integer
+
+Raise error when b is a set:
+	>>> add_integer(0, {0, 9, 8})
+	Traceback (most recent call last):
+	TypeError: b must be an integer
+
+
+DOCSTRING
+=========
+``0-add_integer`` should contain 5 lines of file doctring
+
+Check if number of lines of docstring is 5:
+	>>> file_docstring = __import__('0-add_integer').__doc__.count('\n')  
+	>>> file_docstring > 1
+	True
+
+``add_integer`` should contain 3 lines of:
+	>>> function_docstring = add_integer.__doc__.count('\n')
+	>>> function_docstring > 1
+	True
