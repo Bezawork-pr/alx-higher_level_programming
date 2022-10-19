@@ -50,10 +50,18 @@ class Rectangle:
     @staticmethod
     def bigger_or_equal(rect_1, rect_2):
         """Static method"""
-        if type(rec_1) is not Rectangle:
+        if isinstance(rect_1, Rectangle) is False:
             raise TypeError("rect_1 must be an instance of Rectangle")
-        if type(rect_2) is not Rectangle:
+        if isinstance(rect_2, Rectangle) is False:
             raise TypeError("rect_2 must be an instance of Rectangle")
+        area_rect_1 = rect_1.height * rect_1.width
+        area_rect_2 = rect_2.height * rect_2.width
+        if area_rect_1 == area_rect_2:
+            return area_rect_1
+        elif area_rect_1 > area_rect_2:
+            return rect_1
+        else:
+            return rect_2
 
     def perimeter(self):
         """Calculate parameter"""
