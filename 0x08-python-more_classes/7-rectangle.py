@@ -58,17 +58,16 @@ class Rectangle:
         returnable = ""
         height = self.height
         width = self.width
-        print_symbol = type(self).print_symbol
-        separator = ", "
-        if isinstance(print_symbol, list):
-            joined = separator.join(print_symbol)
-            print_symbol = "[" + joined + "]"
+        separator = "', '"
+        if isinstance(self.print_symbol, list):
+            joined = separator.join(self.print_symbol)
+            self.print_symbol = "['" + joined + "']"
         if height == 0 or width == 0:
             return returnable
         while height != 0:
             width = self.width
             while width != 0:
-                returnable += print_symbol
+                returnable += self.print_symbol
                 width -= 1
             if height != 1:
                 returnable += "\n"
