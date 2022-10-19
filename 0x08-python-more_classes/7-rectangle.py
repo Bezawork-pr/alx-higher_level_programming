@@ -62,6 +62,8 @@ class Rectangle:
         if isinstance(self.print_symbol, list):
             joined = separator.join(self.print_symbol)
             self.print_symbol = "['" + joined + "']"
+        if isinstance(self.print_symbol, int):
+            self.print_symbol = str(self.print_symbol)
         if height == 0 or width == 0:
             return returnable
         while height != 0:
