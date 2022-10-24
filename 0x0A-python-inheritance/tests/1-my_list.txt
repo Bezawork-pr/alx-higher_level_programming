@@ -1,10 +1,7 @@
-#1-my_list.txt
-
-===================================
-The ``my_list`` module
+The ``1-my_list`` module
 ===================================
 
-Using ``my_list``
+Using ``MyList``
 -------------------
 
 
