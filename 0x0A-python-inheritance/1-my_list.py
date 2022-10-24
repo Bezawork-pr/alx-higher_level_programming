@@ -7,6 +7,7 @@ from list inbuilt object
 class MyList(list):
     """This class inherits from list
     Function print_sorted: sorts and prints list"""
+
     def __init__(self):
         """initiates class"""
         super().__init__()
