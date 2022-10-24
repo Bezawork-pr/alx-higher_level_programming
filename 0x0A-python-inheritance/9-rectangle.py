@@ -23,6 +23,6 @@ class Rectangle(BaseGeometry):
 
     def __str__(self):
         """magic func str"""
-        my_string = "[Rectangle] "
+        my_string = type(self).__name__ + " "
         my_string += str(self.__width) + "/" + str(self.__height)
         return my_string
