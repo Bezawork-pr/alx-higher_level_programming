@@ -1,0 +1,47 @@
+#1-my_list.txt
+
+===================================
+The ``my_list`` module
+===================================
+
+Using ``my_list``
+-------------------
+
+
+IMPORT
+=======
+	>>> MyList = __import__('1-my_list').MyList
+
+NO PARAMETER
+=============
+	>>> my_list = MyList()
+	>>> my_list.append()
+	Traceback (most recent call last): 
+	TypeError: append() takes exactly one argument (0 given)
+
+GIVE PARAMETER TO print_sorted()
+================================
+	>>> my_list = MyList()
+	>>> my_list.append(5)
+	>>> my_list.print_sorted(1)
+	Traceback (most recent call last):
+	TypeError: print_sorted() takes 1 positional argument but 2 were given
+
+CALL print_sorted() WITH NO EMPTY LIST
+=======================================
+	>>> my_list = MyList() 
+	>>> my_list.print_sorted()
+	[]
+
+CHECK DOC STRING
+================
+	>>> doc_string = __import__('1-my_list') .__doc__.count('\n')
+	>>> doc_string > 0
+	True
+
+CHECK FUNC STRING
+=================
+	>>> class_string = MyList.__doc__.count('\n')
+	>>> class_string > 0
+	True
+	
