@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""This file contains class MyList that inherits
-from list inbuilt object
+"""
+This file contains class
 """
 
 
