@@ -1,0 +1,64 @@
+The ``7-base_geometry`` module
+==============================
+
+Using ``BaseGeometry``
+-------------------
+
+IMPORT
+=======
+	>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+NO PARAMETER
+============
+	>>> bg = BaseGeometry()
+	>>> bg.integer_validator()
+	Traceback (most recent call last):
+	TypeError: integer_validator() missing 2 required positional arguments: 'name' and 'value'
+
+	>>> bg = BaseGeometry()
+	>>> bg.integer_validator("Triangle")
+	Traceback (most recent call last):
+	TypeError: integer_validator() missing 1 required positional argument: 'value'
+
+MORE PARAMETER
+==============
+	>>> bg = BaseGeometry()
+	>>> bg.integer_validator("Traingle", 9, 3)
+	Traceback (most recent call last):
+	TypeError: integer_validator() takes 3 positional arguments but 4 were given
+
+
+NORMAL USAGE
+=============
+	>>> bg = BaseGeometry()
+	>>> bg.integer_validator("Triangle", 20)
+	20
+
+
+VALUE NOT INT
+============
+	>>> bg = BaseGeometry()
+	>>> bg.integer_validator("Triangle", "20")
+	Traceback (most recent call last):
+	TypeError: Triangle must be an integer
+
+VALUE LESS THAN 0
+=================
+	>>> bg = BaseGeometry() 
+	>>> bg.integer_validator("Triangle", -4)
+	Traceback (most recent call last):
+	ValueError: Triangle must be greater than 0
+
+DOC_STRING CHECK
+================
+	>>> doc_string = __import__('7-base_geometry') .__doc__.count('\n')
+	>>> doc_string > 0
+	True
+
+CHECK FUNC STRING
+=================
+	>>> class_string = BaseGeometry.__doc__.count('\n')
+	>>> class_string > 0
+	True
+
+

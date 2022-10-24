@@ -1,9 +1,13 @@
 #!/usr/bin/python3
-"""This file contains a class"""
+"""
+This file contains a class
+"""
 
 
 class BaseGeometry:
-    """class BaseGeometry"""
+    """
+    class BaseGeometry
+    """
     def __init__(self):
         pass
 
