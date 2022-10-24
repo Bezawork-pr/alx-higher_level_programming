@@ -8,6 +8,8 @@ def add_attribute(classname, attributename, value):
         raise TypeError('can\'t add new attribute')
     if type(classname) == int:
         raise TypeError('can\'t add new attribute')
+    if type(classname) == float:
+        raise TypeError('can\'t add new attribute')
     if type(classname) == list:
         raise TypeError('can\'t add new attribute')
     if type(classname) == tuple:
