@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """
-This file contains a function that
 returns the dictionary description
 """
 import json
