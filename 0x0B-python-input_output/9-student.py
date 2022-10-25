@@ -12,7 +12,5 @@ class Student:
         self.age = age
 
     def to_json(self):
-        """Public method returning
-        that retrieves a dictionary representation
-        """
+        """retrieves a dictionary representation"""
         return self.__dict__
