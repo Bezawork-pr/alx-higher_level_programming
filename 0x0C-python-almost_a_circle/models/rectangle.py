@@ -6,7 +6,7 @@ from models.base import Base
 
 
 class Rectangle(Base):
-    def __init__(self, width, height, x=0, y=0, *args):
+    def __init__(self, width, height, x=0, y=0, id=None):
         """instantiate both super class and this class
 
         Args:
@@ -98,3 +98,10 @@ class Rectangle(Base):
                 width -= 1
             print()
             height -= 1
+
+    def __str__(self):
+        """Override the str method with this customized method"""
+        my_string = "[" + type(self).__name__ + "] (" + str(self.id) + ") " 
+        my_string += str(self.x) + "/" + str(self.y) + " - "
+        my_string += str(self.width) + "/" + str(self.height)
+        return my_string
