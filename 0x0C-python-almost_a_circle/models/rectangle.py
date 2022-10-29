@@ -91,8 +91,18 @@ class Rectangle(Base):
         """Prints to STDOUT"""
         width = self.width
         height = self.height
+        x = self.x
+        y = self.y
+        while y != 0:
+            print()
+            y -= 1
         while height != 0:
             width = self.width
+            x = self.x
+            while x != 0:
+                print(" ", end="")
+                x -= 1
+                y -= 1
             while width != 0:
                 print("#", end="")
                 width -= 1
