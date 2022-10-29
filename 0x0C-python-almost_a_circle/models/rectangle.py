@@ -102,7 +102,6 @@ class Rectangle(Base):
             while x != 0:
                 print(" ", end="")
                 x -= 1
-                y -= 1
             while width != 0:
                 print("#", end="")
                 width -= 1
