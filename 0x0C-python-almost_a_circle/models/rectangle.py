@@ -6,7 +6,7 @@ from models.base import Base
 
 
 class Rectangle(Base):
-    def __init__(self, width, height, x=0, y=0):
+    def __init__(self, width, height, x=0, y=0, *args):
         """instantiate both super class and this class
 
         Args:
@@ -14,6 +14,7 @@ class Rectangle(Base):
             height(int): height of Rectangle
             x(int): coordinate of Rectangle
             y(int): coordinate of Rectangle
+            args: if more argument is given
 
         Raises:
             TypeError: if width, height, x and y are not int
@@ -81,3 +82,7 @@ class Rectangle(Base):
         if (value < 0):
             raise ValueError("y must be > 0")
         self.__y = value
+
+    def area(self):
+        """Return the area of the Rectangle"""
+        return self.width * self.height
