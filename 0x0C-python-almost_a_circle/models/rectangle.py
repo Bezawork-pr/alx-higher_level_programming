@@ -110,7 +110,24 @@ class Rectangle(Base):
 
     def __str__(self):
         """Override the str method with this customized method"""
-        my_string = "[" + type(self).__name__ + "] (" + str(self.id) + ") " 
+        my_string = "[" + type(self).__name__ + "] (" + str(self.id) + ") "
         my_string += str(self.x) + "/" + str(self.y) + " - "
         my_string += str(self.width) + "/" + str(self.height)
         return my_string
+
+    def update(self, *args):
+        """Update attributes with this public method"""
+        length = len(args)
+        i = 0
+        while (i < length):
+            if i == 0:
+                setattr(self, 'id', args[0])
+            elif i == 1:
+                setattr(self, 'width', args[1])
+            elif i == 2:
+                setattr(self, 'height', args[2])
+            elif i == 3:
+                setattr(self, 'x', args[3])
+            elif i == 4:
+                setattr(self, 'y', args[4])
+            i += 1
