@@ -23,4 +23,18 @@ class Square(Rectangle):
         """
         super().__init__(size, size, x, y, id)
         self.area()
-        self.__str__()
+
+    @property
+    def size(self):
+        return self.width
+
+    @size.setter
+    def size(self, value):
+        self.width = value
+        self.height = value
+
+    def __str__(self):
+        sq_string = "[" + type(self).__name__ + "] " + "("
+        sq_string += str(self.id) + ") " + str(self.y) + " - "
+        sq_string += str(self.width)
+        return sq_string
