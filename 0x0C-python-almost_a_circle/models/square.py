@@ -35,6 +35,7 @@ class Square(Rectangle):
 
     def __str__(self):
         sq_string = "[" + type(self).__name__ + "] " + "("
-        sq_string += str(self.id) + ") " + str(self.y) + " - "
+        sq_string += str(self.id) + ") " + str(self.x) 
+        sq_string += "/" + str(self.y) + " - "
         sq_string += str(self.width)
         return sq_string
