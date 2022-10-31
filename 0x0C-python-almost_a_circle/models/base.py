@@ -23,6 +23,9 @@ class Base:
         """Change from object to json string"""
         if list_dictionaries is None:
             return "[]"
+        for i in range(len(list_dictionaries)):
+            list_dictionaries[i] = dict(reversed(list(
+                list_dictionaries[i].items())))
         return json.dumps(list_dictionaries)
 
     @classmethod
@@ -47,3 +50,11 @@ class Base:
                 json_string = cls.to_json_string(my_list)
             with open(file_name, "w+", encoding="utf-8") as w:
                 w.write(json_string)
+
+    @staticmethod
+    def from_json_string(json_string):
+        to_list = []
+        if json_string is None:
+            return to_list
+        to_list = json.loads(json_string)
+        return to_list
