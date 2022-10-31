@@ -4,6 +4,7 @@ This file contains class Base
 """
 import json
 import os
+import csv
 
 
 class Base:
@@ -32,7 +33,7 @@ class Base:
     def save_to_file(cls, list_objs):
         """Save json string in file"""
         my_list = []
-        file_name = cls.__name__ + ".json" 
+        file_name = cls.__name__ + ".json"
         if list_objs is None:
             with open(file_name, "w+", encoding="utf-8") as w:
                 json_string = cls.to_json_string(my_list)
@@ -41,7 +42,7 @@ class Base:
         else:
             if os.path.exists(file_name) is False:
                 with open(file_name, "w+", encoding="utf-8") as createfile:
-                    json_string = cls.to_json_string(my_list) 
+                    json_string = cls.to_json_string(my_list)
                     createfile.write(json_string)
             with open(file_name, "r", encoding="utf-8") as copy:
                 read_copy = copy.read()
@@ -63,7 +64,7 @@ class Base:
             return to_list
         to_list = json.loads(json_string)
         return to_list
-    
+
     @classmethod
     def create(cls, **dictionary):
         """Create dummy instance and update using the update function"""
@@ -76,7 +77,7 @@ class Base:
 
     @classmethod
     def load_from_file(cls):
-        """"""
+        """Load from json file"""
         my_list = []
         my_instances = []
         file_name = cls.__name__ + ".json"
@@ -90,3 +91,22 @@ class Base:
 
         return my_list
 
+    @classmethod
+    def save_to_file_csv(cls, list_objs):
+        """Save to csv file"""
+        file_name = cls.__name__ + ".csv"
+        if os.path.exists(file_name) is False:
+            with open(file_name, "w+", encoding="utf-8") as createfile:
+                pass
+        with open(file_name, "a", encoding="utf-8") as r:
+            csv_writer = csv.writer(r)
+            csv_writer.writerow(list_objs)
+
+    @classmethod
+    def load_from_file_csv(cls):
+        """Load from csv file"""
+        file_name = cls.__name__ + ".csv"
+        with open(file_name, encoding="utf-8") as f:
+            csv_reader = csv.reader(f)
+            for i in csv_reader:
+                return i
