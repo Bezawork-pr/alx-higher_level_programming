@@ -5,7 +5,7 @@ This file contains class Base
 import json
 import os
 import csv
-
+import turtle
 
 class Base:
     """class Base"""
@@ -110,3 +110,37 @@ class Base:
             csv_reader = csv.reader(f)
             for i in csv_reader:
                 return i
+
+    @staticmethod
+    def draw(list_rectangles, list_squares):
+        """Draw using turtle"""
+        for elem in list_rectangles:
+            my_screen = turtle.Screen()
+            my_screen.setup(500, 500)
+            my_screen.bgcolor("blue")
+            my_drawing = turtle.Turtle()
+            my_drawing.goto(elem.x, elem.y)
+            my_drawing.forward(elem.width)
+            my_drawing.left(90)
+            my_drawing.forward(elem.height)
+            my_drawing.right(90)
+            my_drawing.forward(elem.width)
+            my_drawing.right(90)
+            my_drawing.forward(elem.height)
+            turtle.done()
+
+        for elem in list_squares:
+            my_screen = turtle.Screen()
+            my_screen.setup(500, 500)
+            my_screen.bgcolor("blue")
+            my_square = turtle.Turtle()
+            my_square.goto(elem.x, elem.y)
+            my_square.forward(elem.size)
+            my_square.left(90)
+            my_square.forward(elem.size)
+            my_square.right(90)
+            my_square.forward(elem.size)
+            my_square.right(90) 
+            my_square.forward(elem.size)
+            turtle.done()
+
