@@ -7,6 +7,7 @@ import os
 import csv
 import turtle
 
+
 class Base:
     """class Base"""
     __nb_objects = 0
@@ -140,7 +141,6 @@ class Base:
             my_square.forward(elem.size)
             my_square.right(90)
             my_square.forward(elem.size)
-            my_square.right(90) 
+            my_square.right(90)
             my_square.forward(elem.size)
             turtle.done()
-
