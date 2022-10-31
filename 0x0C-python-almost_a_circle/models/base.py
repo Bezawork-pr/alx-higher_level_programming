@@ -53,8 +53,20 @@ class Base:
 
     @staticmethod
     def from_json_string(json_string):
+        """Get object from json string"""
         to_list = []
         if json_string is None:
             return to_list
         to_list = json.loads(json_string)
         return to_list
+    
+    @classmethod
+    def create(cls, **dictionary):
+        """Create dummy instance and update using the update function"""
+        if cls.__name__ == "Rectangle":
+            dummy_instance = cls(1, 1)
+        if cls.__name__ == "Square":
+            dummy_instance = cls(1)
+        dummy_instance.update(**dictionary)
+        return dummy_instance
+
