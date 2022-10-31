@@ -89,7 +89,6 @@ class Base:
             for i in range(len(my_list)):
                 my_instances.append(cls.create(**my_list[i]))
             return my_instances
-
         return my_list
 
     @classmethod

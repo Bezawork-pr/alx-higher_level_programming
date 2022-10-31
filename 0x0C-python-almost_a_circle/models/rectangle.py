@@ -14,7 +14,7 @@ class Rectangle(Base):
             height(int): height of Rectangle
             x(int): coordinate of Rectangle
             y(int): coordinate of Rectangle
-            args: if more argument is given
+            id: id
 
         Raises:
             TypeError: if width, height, x and y are not int
