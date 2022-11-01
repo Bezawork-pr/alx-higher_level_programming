@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
 This file contains class Square
+class square is a subclass of Rectangle
 """
 from models.rectangle import Rectangle
 

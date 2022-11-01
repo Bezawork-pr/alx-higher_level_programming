@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
 This file contains class Base
+class Base gives id number
 """
 import json
 import os

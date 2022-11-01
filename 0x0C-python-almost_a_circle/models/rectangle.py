@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """
 class Rectangle
+This creates a rectangle with width and height
+and x and y coordinates
 """
 from models.base import Base
 
