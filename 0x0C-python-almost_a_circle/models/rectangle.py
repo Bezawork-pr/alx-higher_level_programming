@@ -27,11 +27,11 @@ class Rectangle(Base):
             ValueError: if width and height are not greater than 0
             ValueError: if x is less than 0
         """
-        super().__init__(id)
         self.width = width
         self.height = height
         self.x = x
         self.y = y
+        super().__init__(id)
 
     @property
     def width(self):

@@ -13,10 +13,10 @@ import turtle
 
 class Base:
     """class Base has both static and class method
-    that has functions like drawing Rectangles and 
+    that has functions like drawing Rectangles and
     squares, instantiate the objects
     change from object to json string, save to json file, get
-    object from json string, create dummy instances and 
+    object from json string, create dummy instances and
     update the attributes, load from json file, save to json file,
     load from csv file and read to csv file"""
     __nb_objects = 0
