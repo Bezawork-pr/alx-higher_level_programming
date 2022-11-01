@@ -42,6 +42,13 @@ class TestBaseClass(unittest.TestCase):
         self.assertEqual(b1.id, 2)
         self.assertEqual(b2.id, 2)
 
+    def test_to_json_from_json(self):
+        """Test seralizing and deseralizing"""
+        self.assertEqual(Base.to_json_string(None), '[]')
+        self.assertEqual(Base.to_json_string([]), '[]')
+        self.assertEqual(Base.to_json_string([{'id': 12}]), '[{"id": 12}]')
+        self.assertEqual(Base.from_json_string(None), [])
+
 
 if __name__ == "__main___":
     unittest.main()
