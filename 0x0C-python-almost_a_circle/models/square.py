@@ -1,12 +1,17 @@
 #!/usr/bin/python3
 """
-This file contains class Square
-class square is a subclass of Rectangle
+This file contains class Square.
+class Square is a subclass of Rectangle.
+It has attribute setter and getter for attribute
+size. It has update function that updates
+attributes of instances. And provides dictionary
+representation of class square
 """
 from models.rectangle import Rectangle
 
 
 class Square(Rectangle):
+    """Class square"""
     def __init__(self, size, x=0, y=0, id=None):
         """ Instantiate both super class and this class
 

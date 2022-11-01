@@ -2,12 +2,16 @@
 """
 class Rectangle
 This creates a rectangle with width and height
-and x and y coordinates
+and x and y coordinates. This class has attribute getter
+and setter. This function calculates area. Overrides magic function
+__str___, update function and provides a dictionary representation
+of the class
 """
 from models.base import Base
 
 
 class Rectangle(Base):
+    """"Class Rectangle"""
     def __init__(self, width, height, x=0, y=0, id=None):
         """instantiate both super class and this class
 

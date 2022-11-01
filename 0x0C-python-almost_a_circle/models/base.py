@@ -2,6 +2,8 @@
 """
 This file contains class Base
 class Base gives id number
+if no id is provided by the user
+class Base generates for the instance
 """
 import json
 import os
@@ -10,7 +12,13 @@ import turtle
 
 
 class Base:
-    """class Base"""
+    """class Base has both static and class method
+    that has functions like drawing Rectangles and 
+    squares, instantiate the objects
+    change from object to json string, save to json file, get
+    object from json string, create dummy instances and 
+    update the attributes, load from json file, save to json file,
+    load from csv file and read to csv file"""
     __nb_objects = 0
 
     def __init__(self, id=None):
