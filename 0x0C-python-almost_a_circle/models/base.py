@@ -104,21 +104,55 @@ class Base:
     def save_to_file_csv(cls, list_objs):
         """Save to csv file"""
         file_name = cls.__name__ + ".csv"
-        if os.path.exists(file_name) is False:
-            with open(file_name, "w+", encoding="utf-8") as createfile:
-                pass
-        with open(file_name, "a", encoding="utf-8") as r:
-            csv_writer = csv.writer(r)
-            csv_writer.writerow(list_objs)
+        if cls.__name__ == "Rectangle":
+            fieldnames = ["id", "width", "height", "x", "y"]
+            my_list = []
+            for elem in list_objs:
+                my_dict = {}
+                my_dict['id'] = elem.id
+                my_dict['width'] = elem.width
+                my_dict['height'] = elem.height
+                my_dict['x'] = elem.x
+                my_dict['y'] = elem.y
+                my_list.append(my_dict)
+        else:
+            fieldnames = ["id", "size", "x", "y"]
+            my_list = []
+            for elem in list_objs:
+                my_dict = {}
+                my_dict['id'] = elem.id
+                my_dict['size'] = elem.size
+                my_dict['x'] = elem.x
+                my_dict['y'] = elem.y
+                my_list.append(my_dict)
+        with open(file_name, "w", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            for row in my_list:
+                writer.writerow(row)
 
     @classmethod
     def load_from_file_csv(cls):
         """Load from csv file"""
         file_name = cls.__name__ + ".csv"
-        with open(file_name, encoding="utf-8") as f:
-            csv_reader = csv.reader(f)
-            for i in csv_reader:
-                return i
+        loaded = []
+        my_dict = {}
+        with open(file_name, encoding="utf-8") as r:
+            reader = csv.DictReader(r)
+            for elem in reader:
+                if cls.__name__ == "Rectangle":
+                    my_dict['id'] = int(elem['id'])
+                    my_dict['width'] = int(elem['width'])
+                    my_dict['height'] = int(elem['height'])
+                    my_dict['x'] = int(elem['x'])
+                    my_dict['y'] = int(elem['y'])
+                if cls.__name__ == "Square":
+                    my_dict['id'] = int(elem['id'])
+                    my_dict['size'] = int(elem['size'])
+                    my_dict['x'] = int(elem['x'])
+                    my_dict['y'] = int(elem['y'])
+                loaded.append(cls.create(**my_dict))
+        return loaded
 
     @staticmethod
     def draw(list_rectangles, list_squares):
