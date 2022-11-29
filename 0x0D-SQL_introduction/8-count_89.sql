@@ -1,2 +1,2 @@
 -- Write a script that displays the number of records
-SELECT COUNT(*) from first_table
+SELECT COUNT(id=89) from first_table
