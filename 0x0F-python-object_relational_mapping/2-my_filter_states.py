@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
 Get listed State in the command line
+and print
 """
 import MySQLdb
 import sys
