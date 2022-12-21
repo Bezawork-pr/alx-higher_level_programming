@@ -12,4 +12,4 @@ if __name__ == "__main__":
     c.execute("""SELECT *
                 FROM states
                 WHERE name = '{}'""".format(sys.argv[4]))
-    print(c.fetchone())
+    [print(i) for i in c.fetchall()]
