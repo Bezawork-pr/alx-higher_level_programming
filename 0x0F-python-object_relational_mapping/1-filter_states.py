@@ -9,9 +9,8 @@ if __name__ == "__main__":
                          password=sys.argv[2], database=sys.argv[3])
     c = db.cursor()
     c.execute("""SELECT *
-                FROM states 
-                WHERE name REGEXP '^[n]'
-                ORDER BY id""")
+                FROM states
+                WHERE name REGEXP '^[n]'""")
 
     for i in c:
         print(i)
