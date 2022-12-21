@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""
+Get username, password and database from command line
+print all rows from the database
+"""
 import MySQLdb
 import sys
 if __name__ == "__main__":
