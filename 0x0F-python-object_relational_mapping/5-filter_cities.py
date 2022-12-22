@@ -19,8 +19,11 @@ if __name__ == "__main__":
                 WHERE states.name = '{}'""".format(sys.argv[4]))
     [my_list.append(i) for i in c.fetchall()]
     length = len(my_list)
-    for i in range(len(my_list)):
-        if i != length - 1:
-            print("{}, ".format(my_list[i][0]), end="")
-        else:
-            print("{}".format(my_list[i][0]))
+    if length != 0:
+        for i in range(len(my_list)):
+            if i != length - 1:
+                print("{}, ".format(my_list[i][0]), end="")
+            else:
+                print("{}".format(my_list[i][0]))
+    else:
+        print()
