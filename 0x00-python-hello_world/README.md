@@ -1,7 +1,4 @@
 # Python - Hello, World
-
-![48a9fdbd67c84a328a9df9ec8d93b9ac2458ac37721d7d53e51a27fb2bdc5263](https://user-images.githubusercontent.com/107026397/209341887-645a29e2-10fb-4550-a61d-8ca59249151b.jpeg)
-
 ## Tasks  <img src="https://user-images.githubusercontent.com/107026397/209345588-c8cc3382-31c2-417b-888a-666928ab0e1d.svg" width=3% height=3%/>
 ## 0. Run Python file <br>
   => [0-run](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/0-run) : Shell Script that runs Python script. The Python file name will be saved in the environment variable $PYFILE
