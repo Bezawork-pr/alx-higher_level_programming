@@ -1,11 +1,11 @@
 # Python - Hello, World
 ## Tasks  <img src="https://user-images.githubusercontent.com/107026397/209345588-c8cc3382-31c2-417b-888a-666928ab0e1d.svg" width=3% height=3%/>
 ## 0. Run Python file <br>
-  => [0-run](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/0-run) : Shell Script that runs Python script. The Python file name will be saved in the environment variable $PYFILE
+    * [0-run](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/0-run) : Shell Script that runs Python script. The Python file name will be saved in the environment variable $PYFILE
 ### 1. Run inline <br>
-  =>[1-run_inline](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/1-run_inline) : Shell Script that runs Python script. The Python code will be saved in the environment variable $PYCODE
+  * [1-run_inline](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/1-run_inline) : Shell Script that runs Python script. The Python code will be saved in the environment variable $PYCODE
 ### 2. Hello, print <br>
-  =>[2-print.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/2-print.py): Python script that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
+  * [2-print.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/2-print.py): Python script that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
 ### 3. Print integer <br>
   =>[3-print_number.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/3-print_number.py): Print the integer stored in the variable number, followed by Battery street, followed by a new line.
 ### 4. Print float <br>
