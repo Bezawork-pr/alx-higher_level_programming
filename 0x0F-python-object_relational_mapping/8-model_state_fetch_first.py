@@ -17,7 +17,7 @@ if __name__ == "__main__":
     session = Session()
     first_element = session.query(State.id, State.name).\
         order_by(State.id).first()
-    if len(first_element) == 0:
+    if State is None:
         print("Nothing")
     else:
         print("{}: {}".format(first_element.id, first_element.name))
