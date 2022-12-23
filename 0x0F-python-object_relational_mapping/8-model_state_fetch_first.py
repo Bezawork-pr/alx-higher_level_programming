@@ -15,9 +15,9 @@ if __name__ == "__main__":
                            pool_pre_ping=True)
     Session = sessionmaker(bind=engine)
     session = Session()
-    first_element = session.query(State.id, State.name).\
+    first_element = session.query(State).\
         order_by(State.id).first()
-    if State is None:
+    if first_element is None:
         print("Nothing")
     else:
         print("{}: {}".format(first_element.id, first_element.name))
