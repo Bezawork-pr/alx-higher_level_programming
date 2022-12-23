@@ -1,7 +1,7 @@
 # Python - Hello, World
 ## Tasks  <img src="https://user-images.githubusercontent.com/107026397/209345588-c8cc3382-31c2-417b-888a-666928ab0e1d.svg" width=3% height=3%/>
 ## 0. Run Python file <br>
-   * [0-run](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/0-run) : Shell Script that runs Python script. The Python file name will be saved in the environment variable $PYFILE
+   * [0-run](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/0-run) : Shell Script that runs Python script. The Python file name will be saved in the environment variable <mark>$PYFILE<mark>
 ### 1. Run inline <br>
   * [1-run_inline](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/1-run_inline) : Shell Script that runs Python script. The Python code will be saved in the environment variable $PYCODE
 ### 2. Hello, print <br>
