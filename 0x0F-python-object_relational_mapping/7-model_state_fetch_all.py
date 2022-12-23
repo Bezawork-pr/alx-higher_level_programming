@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""
+1: Take mysql username, mysql password and database
+2: Fetch all the rows in table states
+"""
 import sys
 from sqlalchemy import create_engine
 from model_state import Base, State
