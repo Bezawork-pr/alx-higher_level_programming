@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 1: Take mysql username, mysql password and database
-2: Fetch all the rows that contain the letter a
+2: Fetch provided stated in the command lin
 """
 import sys
 from sqlalchemy import create_engine
@@ -15,7 +15,5 @@ if __name__ == "__main__":
                            pool_pre_ping=True)
     Session = sessionmaker(bind=engine)
     session = Session()
-    not_texas = session.query(State).\
-        order_by(State.id).filter(State.name.like('%a%'))
-    for row in not_texas:
-        print("{}: {}".format(row.id, row.name))
+    get_id = session.query(State.id).filter(State.name == sys.argv[4]).first()
+    print(get_id[0])
