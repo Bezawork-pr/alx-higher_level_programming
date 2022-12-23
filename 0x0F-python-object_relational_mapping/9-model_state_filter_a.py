@@ -16,6 +16,6 @@ if __name__ == "__main__":
     Session = sessionmaker(bind=engine)
     session = Session()
     not_texas = session.query(State).\
-        order_by(State.id).filter(~State.name.in_(['New York']))
+        order_by(State.id).filter(State.name.like('%a%'))
     for row in not_texas:
         print("{}: {}".format(row.id, row.name))
