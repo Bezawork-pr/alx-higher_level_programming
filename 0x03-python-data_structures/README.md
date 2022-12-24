@@ -18,3 +18,12 @@ This project targets to master lists, learn to identify the difference between s
 | 13-is_palindrome.c,  | int is_palindrome(listint_t ** head);  |
 | 100-print_python_list_info.c | void print_python_list_info(PyObject *p); |
 ## <pre> Tasks   <img src="https://user-images.githubusercontent.com/107026397/209425131-1d190ca6-b53b-49a9-b00a-6d697c9e4473.svg" height=3% width=3%></pre>
+### 0. Print a list of integers
+*  [0-print_list_integer.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x03-python-data_structures/0-print_list_integer.py): A  function that prints all integers of a list.
+*  Assume that the list only contains integers
+<pre>
+Constraints : 
+Not allowed to import any module
+Not allowed to cast integers into strings
+Have to use str.format() to print integers
+</pre>
