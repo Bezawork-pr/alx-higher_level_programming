@@ -123,9 +123,10 @@ not allowed to import any module
 <pre>
 Constraints: not allowed to import any module
 </pre>
- [102-magic_calculation.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/102-magic_calculation.py): Python function def magic_calculation(a, b, c): that does exactly the same as the following Python bytecode: 
+### 16. ByteCode -> Python #2
+* [102-magic_calculation.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/102-magic_calculation.py): Python function def magic_calculation(a, b, c): that does exactly the same as the following Python bytecode: 
 <pre>
- 3           0 LOAD_FAST                0 (a)
+ 3            0 LOAD_FAST                0 (a)
               3 LOAD_FAST                1 (b)
               6 COMPARE_OP               0 (<)
               9 POP_JUMP_IF_FALSE       16
