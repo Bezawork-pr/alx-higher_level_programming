@@ -138,7 +138,8 @@ program should be exactly 5 lines long
    *   [lists.h ](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x03-python-data_structures/lists.h): Header file.
    *    [13-main.c](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x03-python-data_structures/13-main.c): Test file.
  
-
+### 14. CPython #0: Python lists
+* [100-print_python_list_info.c](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x03-python-data_structures/100-print_python_list_info.c): A C function that prints some basic info about Python lists.
 
          
 
