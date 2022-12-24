@@ -46,8 +46,8 @@ Code should not be executed when imported
 </pre>
 ### 4. Who are you?
 *  [4-hidden_discovery.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x02-python-import_modules/4-hidden_discovery.py): a program that prints all the names defined by the compiled module  [hidden_4.pyc](https://github.com/holbertonschool/0x02.py/raw/master/hidden_4.pyc)(please download it locally).
-*  print one name per line, in alpha order.
-*  print only names that do not start with __
+ *  print one name per line, in alpha order.
+ *  print only names that do not start with __
 <pre>
  Constraint: Code should not be executed when imported.
 </pre>
