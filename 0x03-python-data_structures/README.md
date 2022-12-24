@@ -39,5 +39,13 @@ Have to use str.format() to print integers
   Constraints:
   
   Not allowed to import any module
-  Not allowed to import any module
-  </pre>
+  Not allowed to import any module</pre>
+### 3. Print a list of integers... in reverse!
+* [3-print_reversed_list_integer.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x03-python-data_structures/3-print_reversed_list_integer.py): A function that prints all integers of a list, in reverse order.
+   * Format: one integer per line.
+   * Can assume that the list only contains integers
+<pre>
+Constraints:
+Not allowed to cast integers into strings
+Have to use str.format() to print integers
+</pre>
