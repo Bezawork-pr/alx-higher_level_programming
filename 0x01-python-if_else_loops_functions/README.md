@@ -18,7 +18,7 @@ This project focuses on mastering the importance of indentation and how to use t
 ## <pre> Tasks   <img src="https://user-images.githubusercontent.com/107026397/209425131-1d190ca6-b53b-49a9-b00a-6d697c9e4473.svg" height=3% width=3%></pre>
 ### 0. Positive anything is better than negative nothing
 * [0-positive_or_negative.py]( https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/0-positive_or_negative.py): Python script that assigns random signed number to the variable number each time it is executed. It prints whether the number stored in the variable number is positive or negative or zero.
-* The output of the program should be:
+* The output of the program is:
     * The number, followed by
         * if the number is greater than 0: `is positive`
         * if the number is 0: `is zero`
