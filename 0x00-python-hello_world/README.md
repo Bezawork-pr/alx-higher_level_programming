@@ -37,9 +37,9 @@ This project focuses on mastering how to use the Python interpreter, how to prin
   * [9-easter_egg.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/9-easter_egg.py): Python script that that prints `“The Zen of Python”, by TimPeters`, followed by a new line.
 ### 10. Linked list cycle <br>
   * [10-check_cycle.c](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/10-linked_lists.c): C function that checks if a linked list contains a cycle.
-  * [lists.h](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/lists.h): Header file for 10-check_cyle.c.
-  * [10-linked_lists.c](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/10-linked_lists.c): This file contains print function, add node function and free function.
-  * [10-main.c](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/10-main.c): This is a test file provided by ALX.
+    * [lists.h](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/lists.h): Header file for 10-check_cyle.c.
+    * [10-linked_lists.c](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/10-linked_lists.c): This file contains print function, add node function and free function.
+    * [10-main.c](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/10-main.c): This is a test file provided by ALX.
 ### 11. Hello, write <br>
   * [100-write.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/100-write.py) :  Python script that prints exactly `and that piece of art is useful - Dora Korpar, 2015-10-19`, followed by a new line.
 ### 12. Compile <br>
