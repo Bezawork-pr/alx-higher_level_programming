@@ -67,10 +67,10 @@ Code should not be executed when imported
       * `Usage: ./100-my_calculator.py <a> <operator> <b>` followed with a new line.
       * exit with the value 1
    * operator can be:
-     * + for addition
-     * - for subtraction
-     * * for multiplication
-     * / for division
+     * '+' for addition
+     * '-' for subtraction
+     * '*' for multiplication
+     * '/' for division
    * If the operator is not one of the above:
      * print Unknown operator. Available operators: +, -, * and / followed with a new line
      * exit with the value 1
