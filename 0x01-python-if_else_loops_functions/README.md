@@ -34,4 +34,6 @@ This project focuses on mastering the importance of indentation and how to use t
       * if the last digit is less than 6 and not 0: the string and `is less than 6 and not 0`
    * followed by a new line
 * [Source-code](https://github.com/holbertonschool/0x01.py/blob/master/1-last_digit_py)
-
+### 2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
+* [2-print_alphabet.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/2-print_alphabet.py): Python script  that prints the ASCII alphabet, in lowercase, not followed by a new line.
+* <pre>abcdefghijklmnopqrstuvwxyz</pre>
