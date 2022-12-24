@@ -29,7 +29,7 @@ This project focuses on mastering how to use the Python interpreter, how to prin
     * word_first_3 should contain the first 3 letters of the variable word<br>
     * word_last_2 should contain the last 2 letters of the variable word<br>
     * word_last_2 should contain the last 2 letters of the variable word<br>
-   [Source code](https://github.com/holbertonschool/0x00.py/blob/master/7-edges.py)
+   * [Source code](https://github.com/holbertonschool/0x00.py/blob/master/7-edges.py)
 ### 8. Create a new sentence <br>
   * [8-concat_edges.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/8-concat_edges.py) : Print `object-oriented programming with Python`<br>
   * [Source-code](https://github.com/holbertonschool/0x00.py/blob/master/8-concat_edges.py)
