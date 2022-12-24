@@ -3,6 +3,18 @@ This project targets to master lists, learn to identify the difference between s
 ## <pre> Function prototypes    <img src="https://user-images.githubusercontent.com/107026397/209424557-72ec9e7b-8f5a-4c69-9136-2629ca6d2ab0.svg" width = 3% height= 3%> </pre>
 | Files  | Prototypes |
 | ------------- | ------------- |
-| 0-add.py|def add(a, b): |
-|102-magic_calculation.py | def magic_calculation(a, b):|
+| 0-print_list_integer.py|def print_list_integer(my_list=[]): |
+|1-element_at.py| def element_at(my_list, idx):|
+| 2-replace_in_list.py  | def replace_in_list(my_list, idx, element): |
+| 3-print_reversed_list_integer.py | def print_reversed_list_integer(my_list=[]):  |
+| 4-new_in_list.py  | def new_in_list(my_list, idx, element):  |
+| 5-no_c.py  | def no_c(my_string):  |
+| 6-print_matrix_integer.py  | def print_matrix_integer(matrix=[[]]): |
+| 7-add_tuple.py  |def add_tuple(tuple_a=(), tuple_b=()):  |
+| 8-multiple_returns.py  | def multiple_returns(sentence):  |
+| 9-max_integer.py  | def max_integer(my_list=[]):  |
+| 10-divisible_by_2.py  | def divisible_by_2(my_list=[]):  |
+| 11-delete_at.py  | def delete_at(my_list=[], idx=0): |
+| 13-is_palindrome.c,  | int is_palindrome(listint_t ** head);  |
+| 100-print_python_list_info.c | void print_python_list_info(PyObject *p); |
 ## <pre> Tasks   <img src="https://user-images.githubusercontent.com/107026397/209425131-1d190ca6-b53b-49a9-b00a-6d697c9e4473.svg" height=3% width=3%></pre>
