@@ -11,6 +11,7 @@ This project is targeted at mastering how to import functions from another file 
 
 <pre>
 Constrains:
+
 Can only use the word add_0 once in your code
 Not allowed to use * for importing or __import__
 Code should not be executed when imported 
@@ -50,8 +51,7 @@ Code should not be executed when imported
     *  print one name per line, in alpha order.
     *  print only names that do not start with __
 <pre>
- Constraint: Code should not be executed when imported.
-</pre>
+ Constraint: Code should not be executed when imported.</pre>
 ### 5. Everything can be imported
 * [5-variable_load.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x02-python-import_modules/5-variable_load.py): A program that imports the variable a from the file  [variable_load_5.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x02-python-import_modules/variable_load_5.py) and prints its value.
 <pre>
@@ -76,6 +76,7 @@ Code should not be executed when imported
      * exit with the value 1
 <pre>
 Constraints:
+
 Not allowed to use * for importing or __import__
 Code should not be executed when imported
 </pre>
