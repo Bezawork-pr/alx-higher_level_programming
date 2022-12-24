@@ -78,8 +78,8 @@ This project focuses on mastering the importance of indentation and how to use t
    <pre> 01, 02, 03, 04, 05, 06, 07, 08, 09, 12, 13, 14, 15, 16, 17, 18, 19, 23, 24, 25, 26, 27, 28, 29, 34, 35, 36, 37, 38, 39, 45, 46, 47, 48, 49, 56, 57, 58, 59, 67, 68, 69, 78, 79, 89</pre> 
 ### 7. islower
 * [7-islower.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/7-islower.py): A function that checks for lowercase character.
-* Returns `True` if c is lowercase.
-* Returns `False` otherwise.
+      * Returns `True` if c is lowercase.
+      * Returns `False` otherwise.
 ### 8. To uppercase
 * [8-uppercase.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/8-uppercase.py): A function that prints a string in uppercase followed by a new line.
 * [8-main.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/8-main.py): Test file.
