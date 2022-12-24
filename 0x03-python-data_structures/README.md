@@ -55,6 +55,15 @@ Have to use str.format() to print integers
       * If idx is negative, the function should return a copy of the original list
       * If idx is out of range (> of number of element in my_list), the function should return a copy of the original list 
 <pre>
+Constraints:
+
 Not allowed to import any module
 Not allowed to use try/except
 </pre>
+### 5. Can you C me now?
+* [5-no_c.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x03-python-data_structures/5-no_c.py): A function that removes all characters c and C from a string.
+   * function should return the new string
+ <pre>
+Not allowed to import any module
+Not allowed to use str.replace()
+ </pre>
