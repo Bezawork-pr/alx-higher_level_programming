@@ -96,8 +96,8 @@ Have to use str.format() to print integers
  <pre>
  Constraints:
  
- Not allowed to import any module
- </pre>
+Not allowed to import any module
+</pre>
 ### 9. Find the max
 * [9-max_integer.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x03-python-data_structures/9-max_integer.py): A function that finds the biggest integer of a list.
      * If the list is empty, return None.
@@ -111,8 +111,31 @@ Not allowed to use the builtin max()
    * Return a new list with `True` or `False`, depending on whether the integer at the same position in the original list is a multiple of 2
    * The new list should have the `same size` as the original list.
 <pre>
+Constraints:
+
 Not allowed to import any module
 </pre>
+### 11. Delete at
+ * [11-delete_at.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x03-python-data_structures/11-delete_at.py): A function that deletes the item at a specific position in a list.
+      * If `idx is negative or out of range`, nothing change (returns the `same list`) 
+<pre>
+Constraints:
+Not allowed to use pop()
+Not allowed to import any module
+</pre>  
+### 12. Switch
+* [12-switch.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x03-python-data_structures/12-switch.py):  Switch value of a and b
+*  [Source-code](https://github.com/holbertonschool/0x03.py/blob/master/12-switch_py)
+<pre>
+Constraints:
+program should be exactly 5 lines long
+</pre>  
+### 13. Linked list palindrome
+*  [13-is_palindrome.c](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x03-python-data_structures/13-is_palindrome.c): A function in C that checks if a singly linked list is a palindrome.
+*  Return: 0 if it is not a palindrome, 1 if it is a palindrome.
+*  An empty list is considered a palindrome.
+   *  [linked_lists.c](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x03-python-data_structures/linked_lists.c): This file contains print function, add node function and free list function.
+   *  
  
 
 
