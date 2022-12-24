@@ -109,4 +109,12 @@ This project focuses on mastering the importance of indentation and how to use t
    *  [lists.h](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/lists.h): Header file.
    *  [13-main.c](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/13-main.c): Test file.
 
-
+### 14. Smile in the mirror
+*  [100-print_tebahpla.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/100-print_tebahpla.py): A program that prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase.
+<pre>
+##### constraint:
+You can only use one print function with string format
+You can only use one loop in your code
+You are not allowed to store characters in a variable
+You are not allowed to import any module
+</pre>
