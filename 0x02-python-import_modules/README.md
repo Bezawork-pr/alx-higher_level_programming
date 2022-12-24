@@ -137,3 +137,15 @@ Not allowed to use print or eval or open or import sys.
             107 LOAD_CONST               0 (None)
             110 RETURN_VALUE
 </pre>
+### 9. Fast alphabet
+* [103-fast_alphabet.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x02-python-import_modules/103-fast_alphabet.py): A program that prints the alphabet in uppercase, followed by a new line.
+<pre>
+Constraints:
+
+* Not allowed to use:
+   * Any loops
+   * Any conditional statements
+   * str.join()
+   * Any string literal
+   * Any system calls
+</pre>
