@@ -64,6 +64,17 @@ Not allowed to use try/except
 * [5-no_c.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x03-python-data_structures/5-no_c.py): A function that removes all characters c and C from a string.
    * function should return the new string
  <pre>
+Constraints:
+
 Not allowed to import any module
 Not allowed to use str.replace()
  </pre>
+ ### 6. Lists of lists = Matrix
+ * [6-print_matrix_integer.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x03-python-data_structures/6-print_matrix_integer.py): A function that prints a matrix of integers.
+ <pre>
+Constraints:
+
+Not allowed to import any module
+Can assume that the list only contains integers
+Not allowed to cast integers into strings
+Have to use str.format() to print integers
