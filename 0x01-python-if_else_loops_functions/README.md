@@ -15,5 +15,9 @@ This project focuses on mastering the importance of indentation and how to use t
 | 101-remove_char_at.py  | def remove_char_at(str, n): |
 | 102-magic_calculation.py | def magic_calculation(a, b, c): |
 
-## <pre> Tasks <img src="https://user-images.githubusercontent.com/107026397/209425131-1d190ca6-b53b-49a9-b00a-6d697c9e4473.svg" height=3% width=3%></pre>
+## <pre> Tasks   <img src="https://user-images.githubusercontent.com/107026397/209425131-1d190ca6-b53b-49a9-b00a-6d697c9e4473.svg" height=3% width=3%></pre>
+### 0. Positive anything is better than negative nothing
+* [0-positive_or_negative.py]( https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/0-positive_or_negative.py): Python script that assigns random signed number to the variable number each time it is executed. It prints whether the number stored in the variable number is positive or negative or zero.
+* [Source-code](https://github.com/holbertonschool/0x01.py/blob/master/0-positive_or_negative_py)
+    
 
