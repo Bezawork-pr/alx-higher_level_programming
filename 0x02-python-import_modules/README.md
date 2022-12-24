@@ -29,4 +29,5 @@ The word calculator_1 should be used only once in file.
 Not allowed to use * for importing or __import__
 Code should not be executed when imported
 </pre>
+### 2. How to make a script dynamic!
 
