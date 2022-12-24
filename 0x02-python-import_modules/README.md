@@ -29,7 +29,7 @@ Not allowed to use * for importing or __import__
 Code should not be executed when imported
 </pre>
 ### 2. How to make a script dynamic!
- * [2-args.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x02-python-import_modules/2-args.py):A program that prints the number of and the list of its arguments.
+ * [2-args.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x02-python-import_modules/2-args.py): A program that prints the number of and the list of its arguments.
  * The output is:
     * Number of argument(s) followed by argument (if number is one) or arguments (otherwise), followed by
     * `:` (or `.` if no arguments were passed) followed by
@@ -45,7 +45,7 @@ Code should not be executed when imported
  Constraint: Code should not be executed when imported.
 </pre>
 ### 4. Who are you?
-*  [4-hidden_discovery.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x02-python-import_modules/4-hidden_discovery.py): a program that prints all the names defined by the compiled module  [hidden_4.pyc](https://github.com/holbertonschool/0x02.py/raw/master/hidden_4.pyc)(please download it locally).
+*  [4-hidden_discovery.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x02-python-import_modules/4-hidden_discovery.py): A program that prints all the names defined by the compiled module  [hidden_4.pyc](https://github.com/holbertonschool/0x02.py/raw/master/hidden_4.pyc)(please download it locally).
     *  print one name per line, in alpha order.
     *  print only names that do not start with __
 <pre>
@@ -53,3 +53,8 @@ Code should not be executed when imported
 </pre>
 ### 5. Everything can be imported
 * [5-variable_load.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x02-python-import_modules/5-variable_load.py): A program that imports the variable a from the file  [variable_load_5.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x02-python-import_modules/variable_load_5.py) and prints its value.
+<pre>
+Constraint:
+Not allowed to use * for importing or __import__
+Code should not be executed when imported
+</pre>
