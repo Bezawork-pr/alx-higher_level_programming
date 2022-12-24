@@ -142,7 +142,7 @@ Not allowed to use print or eval or open or import sys.
 <pre>
 Constraints:
 
-* Not allowed to use:
+Not allowed to use:
    * Any loops
    * Any conditional statements
    * str.join()
