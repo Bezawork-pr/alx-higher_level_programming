@@ -7,8 +7,8 @@ This project is targeted at mastering how to import functions from another file 
 |102-magic_calculation.py | def magic_calculation(a, b):|
 ## <pre> Tasks   <img src="https://user-images.githubusercontent.com/107026397/209425131-1d190ca6-b53b-49a9-b00a-6d697c9e4473.svg" height=3% width=3%></pre>
 ### 0. Import a simple function from a simple file mandatory
-* [0-add.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x02-python-import_modules/0-add.py): A program that imports the function def add(a, b): from the file add_0.py and prints the result of the addition 1 + 2 = 3
-* import function from [add_0.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x02-python-import_modules/add_0.py)
+* [0-add.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x02-python-import_modules/0-add.py): A program that imports the function def add(a, b): from the file [add_0.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x02-python-import_modules/add_0.py) and prints the result of the addition 1 + 2 = 3
+
 <pre>
 Constrains:
 Can only use the word add_0 once in your code
