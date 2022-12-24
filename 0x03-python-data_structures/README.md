@@ -81,9 +81,11 @@ Have to use str.format() to print integers
 </pre>
 ###  7. Tuples addition
 * [7-add_tuple.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x03-python-data_structures/7-add_tuple.py): A function that adds 2 tuples.
-      * Returns a tuple with 2 integers:
-         * The first element is the addition of the first element of each argument
-         * The second element is the addition of the second element of each argument
+   * Returns a tuple with 2 integers:
+      * The first element is the addition of the first element of each argument
+      * The second element is the addition of the second element of each argument
+   * If a tuple is smaller than 2,  value 0 is used for each missing integer.
+   * If a tuple is bigger than 2, only the first 2 integers is used.
  
          
 
