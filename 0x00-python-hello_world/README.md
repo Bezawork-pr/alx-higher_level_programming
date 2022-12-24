@@ -1,5 +1,5 @@
 # Python - Hello, World
-## <pre>Function Prototypes   </pre><img src="https://user-images.githubusercontent.com/107026397/209423040-0ba70fc0-8862-492e-944b-fa10de86e407.svg" width=3% height=3%/>
+## <pre>Function Prototypes   <img src="https://user-images.githubusercontent.com/107026397/209423040-0ba70fc0-8862-492e-944b-fa10de86e407.svg" width=3% height=3%/></pre>
 | File  | Prototype |
 | ------------- | ------------- |
 | 10-check_cycle.c  | int check_cycle(listint_t *list);  |
