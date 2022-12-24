@@ -5,7 +5,7 @@
 | 10-check_cycle.c  | int check_cycle(listint_t *list);  |
 | 102-magic_calculation.py  | def magic_calculation(a, b);  |
 
-## Tasks  <img src="https://user-images.githubusercontent.com/107026397/209345588-c8cc3382-31c2-417b-888a-666928ab0e1d.svg" width=3% height=3%/>
+## <pre> Tasks   <img src="https://user-images.githubusercontent.com/107026397/209345588-c8cc3382-31c2-417b-888a-666928ab0e1d.svg" width=3% height=3%/></pre>
 ## 0. Run Python file <br>
    * [0-run](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/0-run) : Shell Script that runs Python script. The Python file name will be saved in the environment variable `$PYFILE`
 ### 1. Run inline <br>
