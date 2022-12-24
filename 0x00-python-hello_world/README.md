@@ -41,7 +41,7 @@ This project focuses on mastering how to use the Python interpreter, how to prin
 ### 11. Hello, write <br>
   * [100-write.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/100-write.py) :  Python script that prints exactly `and that piece of art is useful - Dora Korpar, 2015-10-19`, followed by a new line.
 ### 12. Compile <br>
-  * [101-compile](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/101-compile) : A script that compiles a Python script file. The output filename has to be $PYFILEc
+  * [101-compile](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/101-compile) : A script that compiles a Python script file. The output filename is $PYFILEc
 ### 102-magic_calculation.py
   * [102-magic_calculation.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/102-magic_calculation.py) :  Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:
   
