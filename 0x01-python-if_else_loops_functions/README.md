@@ -83,7 +83,7 @@ This project focuses on mastering the importance of indentation and how to use t
 ### 8. To uppercase
 * [8-uppercase.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/8-uppercase.py): A function that prints a string in uppercase followed by a new line.
 <pre> constraint: not allowed to import any module
-   constraint: not allowed to use str.upper() and str.isupper()</pre>
+ constraint: not allowed to use str.upper() and str.isupper()</pre>
 * [8-main.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/8-main.py): Test file.
 ### 9. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important
 * [9-print_last_digit.py ](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/9-print_last_digit.py): A a function that prints the last digit of a number.
