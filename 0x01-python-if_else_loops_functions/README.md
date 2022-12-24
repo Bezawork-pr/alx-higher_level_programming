@@ -111,7 +111,7 @@ This project focuses on mastering the importance of indentation and how to use t
 
 ### 14. Smile in the mirror
 *  [100-print_tebahpla.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/100-print_tebahpla.py): A program that prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase.<br>
--------------------------------------------------
+
 constraint: The following constraints were given
 -------------------------------------------------
 use one print function with string format
