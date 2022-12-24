@@ -46,6 +46,15 @@ Have to use str.format() to print integers
    * Can assume that the list only contains integers
 <pre>
 Constraints:
+
 Not allowed to cast integers into strings
 Have to use str.format() to print integers
+</pre>
+### 4. Replace in a copy
+* [4-new_in_list.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x03-python-data_structures/4-new_in_list.py): A function that replaces an element in a list at a specific position without modifying the original list (like in C).
+      * If idx is negative, the function should return a copy of the original list
+      * If idx is out of range (> of number of element in my_list), the function should return a copy of the original list 
+<pre>
+Not allowed to import any module
+Not allowed to use try/except
 </pre>
