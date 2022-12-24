@@ -16,7 +16,7 @@ Not allowed to use * for importing or __import__
 Code should not be executed when imported 
 </pre>
 ### 1. My first toolbox!
-* [1-calculation.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x02-python-import_modules/1-calculation.py): A program that imports functions from the file calculator_1.py, does some Maths, and prints the result.
+* [1-calculation.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x02-python-import_modules/1-calculation.py): A program that imports functions from the file  [calculator_1.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x02-python-import_modules/calculator_1.py), does some Maths, and prints the result.
   * define:
     * the value 10 to a variable a
     * the value 5 to a variable b
