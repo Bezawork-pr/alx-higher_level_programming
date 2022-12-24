@@ -9,7 +9,7 @@ This project is targeted at mastering how to import functions from another file 
 ### 0. Import a simple function from a simple file mandatory
 * [0-add.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x02-python-import_modules/0-add.py): A program that imports the function def add(a, b): from the file add_0.py and prints the result of the addition 1 + 2 = 3
 * import function from [add_0.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x02-python-import_modules/add_0.py)
-<pre><a value> + <b value> = <add(a, b) value></pre>
+<pre> <a value> + <b value> = <add(a, b) value> </pre>
 <pre>
 Constrains:
 Can only use the word add_0 once in your code
