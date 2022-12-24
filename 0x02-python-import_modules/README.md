@@ -64,5 +64,5 @@ Code should not be executed when imported
 * [100-my_calculator.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x02-python-import_modules/100-my_calculator.py): A program that imports all functions from the file calculator_1.py and handles basic operations.
    *  `Usage: ./100-my_calculator.py a operator b`
    *  If the number of arguments is not 3, the program prints:
-      * `Usage: ./100-my_calculator.py \<a> \<operator> \<b>` followed with a new line.
+      * `Usage: ./100-my_calculator.py /<a> /<operator> /<b>` followed with a new line.
  
