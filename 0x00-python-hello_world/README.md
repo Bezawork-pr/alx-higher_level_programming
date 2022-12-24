@@ -1,4 +1,4 @@
-# Python - Hello, World
+# <pre>Python - Hello, World</pre>
 ## <pre>Function Prototypes   <img src="https://user-images.githubusercontent.com/107026397/209423040-0ba70fc0-8862-492e-944b-fa10de86e407.svg" width=3% height=3%/></pre>
 | File  | Prototype |
 | ------------- | ------------- |
@@ -6,7 +6,7 @@
 | 102-magic_calculation.py  | def magic_calculation(a, b);  |
 
 ## <pre> Tasks   <img src="https://user-images.githubusercontent.com/107026397/209345588-c8cc3382-31c2-417b-888a-666928ab0e1d.svg" width=3% height=3%/></pre>
-## 0. Run Python file <br>
+### 0. Run Python file <br>
    * [0-run](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/0-run) : Shell Script that runs Python script. The Python file name will be saved in the environment variable `$PYFILE`
 ### 1. Run inline <br>
   * [1-run_inline](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/1-run_inline) : Shell Script that runs Python script. The Python code will be saved in the environment variable `$PYCODE`
