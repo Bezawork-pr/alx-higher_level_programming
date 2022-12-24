@@ -25,7 +25,7 @@ This project focuses on mastering how to use the Python interpreter, how to prin
   * [6-concat.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/6-concat.py) : Python script that print `Welcome to Holberton School!`.
   * [Source-code](https://github.com/holbertonschool/0x00.py/blob/master/6-concat.py)
 ### 7. Copy - Cut - Paste <br>
-  * [7-edges.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/7-edges.py) : Python script that print sliced string variable<br>
+  * [7-edges.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/7-edges.py) : Python script that print sliced string variable.<br>
     * word_first_3 should contain the first 3 letters of the variable word.<br>
     * word_last_2 should contain the last 2 letters of the variable word.<br>
     * word_last_2 should contain the last 2 letters of the variable word.<br>
@@ -34,7 +34,7 @@ This project focuses on mastering how to use the Python interpreter, how to prin
   * [8-concat_edges.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/8-concat_edges.py) : Python script that print `object-oriented programming with Python`.<br>
   * [Source-code](https://github.com/holbertonschool/0x00.py/blob/master/8-concat_edges.py)
 ### 9. Easter Egg<br>
-  * [9-easter_egg.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/9-easter_egg.py): Python script that that prints “The Zen of Python”, by TimPeters`, followed by a new line.
+  * [9-easter_egg.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/9-easter_egg.py): Python script that that prints `“The Zen of Python”, by TimPeters`, followed by a new line.
 ### 10. Linked list cycle <br>
   * [10-check_cycle.c](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/10-linked_lists.c): C function that checks if a linked list contains a cycle.
   * [lists.h](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x00-python-hello_world/lists.h): Header file for 10-check_cyle.c.
