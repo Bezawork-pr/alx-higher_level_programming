@@ -97,5 +97,16 @@ This project focuses on mastering the importance of indentation and how to use t
 * [11-pow.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/11-pow.py): A function that computes a to the power of b and return the value
 *  [11-main.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/11-main.py): Test file.
 <pre> constraint:  not allowed to import any module</pre>
+### 12. Fizz Buzz
+*  [12-fizzbuzz.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/12-fizzbuzz.py) :A function that prints the numbers from 1 to 100 separated by a space.
+   *  For multiples of three print Fizz instead of the number and for multiples of five print Buzz.
+   *  For numbers which are multiples of both three and five print FizzBuzz.
+   *  Each element is followed by a space
+ <pre> constraint: not allowed to import any module </pre>
+### 13. Insert in sorted linked list
+*  [13-insert_number.c](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/13-insert_number.c) : a function in C that inserts a number into a sorted singly linked list.
+   *  [linked_lists.c](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/linked_lists.c) : This file has print funciton for singly linked list, add node function and free list.
+   *  [lists.h](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/lists.h): Header file.
+   *  [13-main.c](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/13-main.c): Test file.
 
 
