@@ -37,4 +37,8 @@ This project focuses on mastering the importance of indentation and how to use t
 ### 2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
 * [2-print_alphabet.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/2-print_alphabet.py): Python script  that prints the ASCII alphabet, in lowercase, not followed by a new line.
  <pre  text-align= center> abcdefghijklmnopqrstuvwxyz</pre>
+### 3. When I was having that alphabet soup, I never thought that it would pay off
+* [3-print_alphabt.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/3-print_alphabt.py): Python program that prints  the ASCII alphabet, in lowercase, not followed by a new line. 
+* The program prints all letters except `q` and `e`
+<pre>abcdfghijklmnoprstuvwxyz</pre>
 
