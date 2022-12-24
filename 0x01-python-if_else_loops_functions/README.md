@@ -14,3 +14,6 @@ This project focuses on mastering the importance of indentation and how to use t
 | 13-insert_number.c | listint_t *insert_node(listint_t **head, int number);  |
 | 101-remove_char_at.py  | def remove_char_at(str, n): |
 | 102-magic_calculation.py | def magic_calculation(a, b, c): |
+
+## <pre> Tasks <img src="https://user-images.githubusercontent.com/107026397/209425131-1d190ca6-b53b-49a9-b00a-6d697c9e4473.svg" height=3% width=3%></pre>
+
