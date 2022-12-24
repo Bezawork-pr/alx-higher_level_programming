@@ -3,3 +3,14 @@ This project focuses on mastering the importance of indentation and how to use t
 
 
 ## <pre> Function prototypes    <img src="https://user-images.githubusercontent.com/107026397/209424557-72ec9e7b-8f5a-4c69-9136-2629ca6d2ab0.svg" width = 3% height= 3%> </pre>
+| Files  | Prototypes |
+| ------------- | ------------- |
+|7-islower.py  | def islower(c):|
+|8-uppercase.py| def uppercase(str):|
+|9-print_last_digit.py | def print_last_digit(number):|
+|10-add.py  | def add(a, b):  |
+| 11-pow.py | def pow(a, b):  |
+| 12-fizzbuzz.py | def fizzbuzz():  |
+| 13-insert_number.c | listint_t *insert_node(listint_t **head, int number);  |
+| 101-remove_char_at.py  | def remove_char_at(str, n): |
+| 102-magic_calculation.py | def magic_calculation(a, b, c): |
