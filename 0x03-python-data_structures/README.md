@@ -90,7 +90,32 @@ Have to use str.format() to print integers
  <pre>
  Constraints: Not allowed to import any module
  </pre>
+ ### 8. More returns!
+  * [8-multiple_returns.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x03-python-data_structures/8-multiple_returns.py): A function that returns a tuple with the length of a string and its first character.
+      * If the sentence is empty, the first character should be equal to None
+ <pre>
+ Constraints:
  
+ Not allowed to import any module
+ </pre>
+### 9. Find the max
+* [9-max_integer.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x03-python-data_structures/9-max_integer.py): A function that finds the biggest integer of a list.
+     * If the list is empty, return None.
+     * Assume that the list only contains integers.
+<pre>
+Not allowed to import any module
+Not allowed to use the builtin max()
+</pre>
+### 10. Only by 2
+ * [10-divisible_by_2.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x03-python-data_structures/10-divisible_by_2.py): A function that finds all multiples of 2 in a list.
+   * Return a new list with `True` or `False`, depending on whether the integer at the same position in the original list is a multiple of 2
+   * The new list should have the `same size` as the original list.
+<pre>
+Not allowed to import any module
+</pre>
+ 
+
+
          
 
 
