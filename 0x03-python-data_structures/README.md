@@ -135,7 +135,8 @@ program should be exactly 5 lines long
 *  Return: 0 if it is not a palindrome, 1 if it is a palindrome.
 *  An empty list is considered a palindrome.
    *  [linked_lists.c](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x03-python-data_structures/linked_lists.c): This file contains print function, add node function and free list function.
-   *  
+   *   [lists.h ](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x03-python-data_structures/lists.h): Header file.
+   *    [13-main.c](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x03-python-data_structures/13-main.c): Test file.
  
 
 
