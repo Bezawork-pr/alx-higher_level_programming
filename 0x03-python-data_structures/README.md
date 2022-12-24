@@ -31,3 +31,13 @@ Have to use str.format() to print integers
 * [1-element_at.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x03-python-data_structures/1-element_at.py): A function that retrieves an element from a list like in C.
   * If `idx is negative`, the function should return `None`
   * If `idx is out of range` (> of number of element in my_list), the function should return `None` 
+### 2. Replace element
+*  [2-replace_in_list.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x03-python-data_structures/2-replace_in_list.py): A function that replaces an element of a list at a specific position (like in C).
+   * If idx is negative, the function should not modify anything, and returns the original list
+   * If idx is out of range (> of number of element in my_list), the function should not modify anything, and returns the original list 
+  <pre>
+  Constraints:
+  
+  Not allowed to import any module
+  Not allowed to import any module
+  </pre>
