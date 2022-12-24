@@ -118,4 +118,8 @@ use one loop in your code
 not allowed to store characters in a variable
 not allowed to import any module
 </pre>
-
+### 15. Remove at position
+* [101-remove_char_at.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/101-remove_char_at.py): A function that creates a copy of the string, removing the character at the position n.
+<pre>
+Constraints: not allowed to import any module
+</pre>
