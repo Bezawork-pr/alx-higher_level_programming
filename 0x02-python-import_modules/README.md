@@ -29,4 +29,14 @@ Not allowed to use * for importing or __import__
 Code should not be executed when imported
 </pre>
 ### 2. How to make a script dynamic!
+ * [2-args.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x02-python-import_modules/2-args.py):A program that prints the number of and the list of its arguments.
+ * The output is:
+  * Number of argument(s) followed by argument (if number is one) or arguments (otherwise), followed by
+  * : (or . if no arguments were passed) followed by
+  * a new line, followed by (if at least one argument),
+  * one line per argument:
+    * the position of the argument (starting at 1) followed by :, followed by the argument value and a new line
+ <pre>
+ Code should not be executed when imported.
+ </pre>
 
