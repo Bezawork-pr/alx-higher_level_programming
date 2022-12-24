@@ -86,6 +86,10 @@ Have to use str.format() to print integers
       * The second element is the addition of the second element of each argument
    * If a tuple is smaller than 2,  value 0 is used for each missing integer.
    * If a tuple is bigger than 2, only the first 2 integers is used.
+   * Can assume that the two tuples will only contain integers.
+ <pre>
+ Constraints: Not allowed to import any module
+ </pre>
  
          
 
