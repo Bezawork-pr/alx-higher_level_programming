@@ -78,6 +78,7 @@ Not allowed to import any module
 Can assume that the list only contains integers
 Not allowed to cast integers into strings
 Have to use str.format() to print integers
+</pre>
 ###  7. Tuples addition
 * [7-add_tuple.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x03-python-data_structures/7-add_tuple.py): A function that adds 2 tuples.
       * Returns a tuple with 2 integers:
