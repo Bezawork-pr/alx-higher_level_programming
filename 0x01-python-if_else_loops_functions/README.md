@@ -27,5 +27,13 @@ This project focuses on mastering the importance of indentation and how to use t
 * [Source-code](https://github.com/holbertonschool/0x01.py/blob/master/0-positive_or_negative_py)
 ### 1. The last digit
 * [1-last_digit.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/1-last_digit.py): Python script that assign a random signed number to the variable number each time it is executed. It also  print the last digit of the number stored in the variable number.
+* The output of the program should be:
+   * The string Last digit of, followed by
+   * the number, followed by
+   * the string is, followed by the last digit of number, followed by
+      * if the last digit is greater than 5: the string and `is greater than 5`
+      * if the last digit is 0: the string and `is 0`
+      * if the last digit is less than 6 and not 0: the string and `is less than 6 and not 0`
+   * followed by a new line
 * [Source-code](https://github.com/holbertonschool/0x01.py/blob/master/1-last_digit_py)
 
