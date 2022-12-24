@@ -41,4 +41,29 @@ This project focuses on mastering the importance of indentation and how to use t
 * [3-print_alphabt.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/3-print_alphabt.py): Python program that prints  the ASCII alphabet, in lowercase, not followed by a new line. 
 * The program prints all letters except `q` and `e`
 <pre>abcdfghijklmnoprstuvwxyz</pre>
+### 4. Hexadecimal printing
+* [4-print_hexa.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/4-print_hexa.py): Python script that prints all numbers from 0 to 98 in decimal and in hexadecimal.
+<pre>0 = 0x0
+1 = 0x1
+2 = 0x2
+3 = 0x3
+4 = 0x4
+5 = 0x5
+6 = 0x6
+7 = 0x7
+8 = 0x8
+9 = 0x9
+10 = 0xa
+11 = 0xb
+12 = 0xc
+13 = 0xd
+14 = 0xe
+15 = 0xf
+16 = 0x10
+17 = 0x11
+18 = 0x12
+...
+96 = 0x60
+97 = 0x61
+98 = 0x62</pre>
 
