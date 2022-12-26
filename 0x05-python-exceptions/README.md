@@ -16,11 +16,11 @@ This projects aims at mastering the difference between errors and exceptions, ho
 ## <pre> Tasks   <img src="https://user-images.githubusercontent.com/107026397/209425131-1d190ca6-b53b-49a9-b00a-6d697c9e4473.svg" height=3% width=3%></pre>
 ### 0. Safe list printing
 * [0-safe_print_list.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x05-python-exceptions/0-safe_print_list.py): A function that prints x elements of a list.
-      * Assumption:
-            * my_list can contain any type (integer, string, etc.)
-            * x represents the number of elements to print
-            * x can be bigger than the length of my_list
-      * Returns the real number of elements printed
+     * Assumption:
+         * my_list can contain any type (integer, string, etc.)
+         * x represents the number of elements to print
+         * x can be bigger than the length of my_list
+     * Returns the real number of elements printed
 <pre>
 Constraints:
 
