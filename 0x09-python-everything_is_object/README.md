@@ -249,6 +249,6 @@ Constraint: Not allowed to import any module.
 </pre>
 ### 31. int 1/3
 * [103-line1.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/103-line1.txt), [103-line2.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/103-line2.txt): The Answer to:
- * Assuming we are using a CPython implementation of Python3 with default options/configuration:
-   * How many int objects are created by the execution of the first line of the script? (103-line1.txt)
-   * How many int objects are created by the execution of the second line of the script (103-line2.txt)
+   * Assuming we are using a CPython implementation of Python3 with default options/configuration:
+     * How many int objects are created by the execution of the first line of the script? (103-line1.txt)
+     * How many int objects are created by the execution of the second line of the script (103-line2.txt)
