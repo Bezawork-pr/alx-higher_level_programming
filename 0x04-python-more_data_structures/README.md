@@ -38,16 +38,12 @@ Not allowed to import any module.
    * search is the element to replace in the list
    * replace is the new element
 <pre>
-Constraints:
-
-Not allowed to import any module.
+Constraints: Not allowed to import any module.
 </pre>
 ### 2. Unique addition
 * [2-uniq_add.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/2-uniq_add.py): A function that adds all unique integers in a list (only once for each integer).
 <pre>
-Constraints:
-
-Not allowed to import any module.
+Constraints: Not allowed to import any module.
 </pre>
 ### 3. Present in both
 * [3-common_elements.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/3-common_elements.py): A function that returns a set of common elements in two sets.
