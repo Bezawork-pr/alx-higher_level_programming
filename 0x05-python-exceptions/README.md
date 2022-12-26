@@ -56,7 +56,20 @@ Have to use try: / except.
 Have to use "{:d}".format() to print an integer.
 not allowed to use len()
 </pre>
+### 3. Integers division with debug
+* [3-safe_print_division.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x05-python-exceptions/3-safe_print_division.py): A function that divides 2 integers and prints the result.
+     * Assumption: 
+          * a and b are integers
+     * The result of the division prints on the finally: section preceded by Inside result: 
+     * Returns the value of the division, otherwise: None
+<pre>
+Constraints:
 
+Have to use try: / except: / finally:
+Have to use "{}".format() to print the result.
+Not allowed to import any module.
+</pre>
 
+[]()
 
 
