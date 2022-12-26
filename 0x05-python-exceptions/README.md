@@ -58,6 +58,6 @@ Have to use "{:d}".format() to print an integer.
 not allowed to use len()
 </pre>
 
-[]()
+
 
 
