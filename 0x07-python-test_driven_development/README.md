@@ -30,7 +30,7 @@ Constraints: Not allowed to import any module.
 Constraints: Not allowed to import any module.
 </pre>
 ### 2. Say my name
-* [3-say_my_name.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/3-say_my_name.py): A function that prints My name is <first name> <last name>
+* [3-say_my_name.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/3-say_my_name.py): A function that prints My name is first name last name
  
  
 
