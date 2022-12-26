@@ -87,7 +87,17 @@ Constraints:
 
 Have to use try: / except: / finally:
 Not allowed to import any module.
-</pre>        
+</pre>
+### 5. Raise exception
+* [5-raise_exception.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x05-python-exceptions/5-raise_exception.py): A function that raises a type exception.
+<pre>
+Constraints: Not allowed to import any module.
+</pre>
+### 6. Raise a message
+* [6-raise_exception_msg.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x05-python-exceptions/6-raise_exception_msg.py): A function that raises a name exception with a message.
+<pre>
+Constraints: Not allowed to import any module.
+</pre>
 []()
 
 
