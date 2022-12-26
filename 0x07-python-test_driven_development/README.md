@@ -14,7 +14,7 @@ This project aims at mastering tests. And explains how to use Docstrings to crea
   * a and b must be integers or floats, otherwise raise a TypeError exception with the message a must be an integer or b must be an integer.
   * a and b must be first casted to integers if they are float.
   * Returns an integer: the addition of a and b
-  * [0-add_integer.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/tests/0-add_integer.txt): Test for the function.
+  * [0-add_integer.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/tests/0-add_integer.txt): Test for the function 0-add_integer.py.
 <pre>
 Constraints: Not allowed to import any module.
 </pre>
@@ -26,11 +26,26 @@ Constraints: Not allowed to import any module.
  * div can’t be equal to 0, otherwise raise a ZeroDivisionError exception with the message division by zero
  * All elements of the matrix should be divided by div, rounded to 2 decimal places
  * Returns a new matrix
+* [2-matrix_divided.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/tests/2-matrix_divided.txt): Test for the function in 2-matrix_divided.py.
  <pre>
 Constraints: Not allowed to import any module.
 </pre>
 ### 2. Say my name
 * [3-say_my_name.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/3-say_my_name.py): A function that prints My name is first name last name
+  * first_name and last_name must be strings otherwise, raise a TypeError exception with the message first_name must be a string or last_name must be a string
+  * [3-say_my_name.txt)](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/tests/3-say_my_name.txt) : Tests for the function in 3-say_my_name.py
+ <pre>
+Constraints: Not allowed to import any module.
+</pre> 
+### 3. Print square
+* [4-print_square.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/4-print_square.py):  a function that prints a square with the character #.
+  * size is the size length of the square
+  * size must be an integer, otherwise raise a TypeError exception with the message size must be an integer
+  * If size is less than 0, raise a ValueError exception with the message size must be >= 0
+  * If size is a float and is less than 0, raise a TypeError exception with the message size must be an integer
+<pre>
+Constraints: Not allowed to import any module.
+</pre> 
  
  
 
