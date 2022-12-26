@@ -32,8 +32,8 @@ Constraint: Not allowed to import any module
       * Private instance attribute: height:
            * Property def height(self): to retrieve it
            * Property setter def height(self, value): to set it:
-                 * Height must be an integer, otherwise raise a TypeError exception with the message height must be an integer
-                 * if height is less than 0, raise a ValueError exception with the message height must be >= 0
+                * Height must be an integer, otherwise raise a TypeError exception with the message height must be an integer
+                * if height is less than 0, raise a ValueError exception with the message height must be >= 0
       * Instantiation with optional width and height: def __init__(self, width=0, height=0):
       * Public instance method: def area(self): that returns the rectangle area
       * Public instance method: def perimeter(self): that returns the rectangle perimeter:
