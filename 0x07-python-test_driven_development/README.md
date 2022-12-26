@@ -9,3 +9,11 @@ This project aims at mastering tests. And explains how to use Docstrings to crea
 |4-print_square.py|def print_square(size):|
 |6-max_integer.py|def max_integer(list=[]):|
 ## <pre> Tasks   <img src="https://user-images.githubusercontent.com/107026397/209425131-1d190ca6-b53b-49a9-b00a-6d697c9e4473.svg" height=3% width=3%></pre>
+### 0. Integers addition
+* [0-add_integer.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/0-add_integer.py): 
+  * a and b must be integers or floats, otherwise raise a TypeError exception with the message a must be an integer or b must be an integer.
+  * a and b must be first casted to integers if they are float.
+  * Returns an integer: the addition of a and b
+<pre>
+Constraints: Not allowed to import any module.
+</pre>
