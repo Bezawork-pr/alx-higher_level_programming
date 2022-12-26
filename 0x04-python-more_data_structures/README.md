@@ -139,23 +139,27 @@ Not allowed to import any module.
 Constraints: Not allowed to import any module.
 </pre>
  ### 14. Squared by using map
- [101-square_matrix_map.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/101-square_matrix_map.py): A function that computes the square value of all integers of a matrix using map.
- * Returns a new matrix:
+ * [101-square_matrix_map.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/101-square_matrix_map.py): A function that computes the square value of all integers of a matrix using map.
+    * Returns a new matrix:
+       * Same size as matrix
+       * Each value is the square of the value of the input
+<pre>
+Constraints:
+
+Not allowed to import any module.
+Initial matrix should not be modified.
+Have to use map.
+Not allowed to use for or while.
+File should be max 3 lines.
+</pre>
  
- 
-
-
- 
-       
-
-
-
-
-
-
-[]()
-[]()
-
+### 15. Delete by value
+ * [102-complex_delete.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/102-complex_delete.py): A function that deletes keys with a specific value in a dictionary.
+    * If the value doesn’t exist, the dictionary won’t change
+    * All keys having the searched value have to be deleted
+ <pre>
+Constraints: Not allowed to import any module.
+</pre>
 
 
    
