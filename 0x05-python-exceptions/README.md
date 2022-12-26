@@ -30,11 +30,11 @@ Not allowed to use len()
 </pre>
 ### 1. Safe printing of an integers list
 * [1-safe_print_integer.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x05-python-exceptions/1-safe_print_integer.py): A function that prints an integer with "{:d}".format().
-      * Assumption:
-            * Value can be any type (integer, string, etc.)
-      * The integer is printed followed by a new line.
-      *  Returns True if value has been correctly printed (it means the value is an integer)
-      *  Returns False Otherwise
+     * Assumption:
+          * Value can be any type (integer, string, etc.)
+     * The integer is printed followed by a new line.
+     *  Returns True if value has been correctly printed (it means the value is an integer)
+     *  Returns False Otherwise
 <pre>
 Constraints:
 
