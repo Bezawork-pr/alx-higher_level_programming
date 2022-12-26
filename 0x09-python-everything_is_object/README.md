@@ -157,10 +157,11 @@ print(l1)
 * [19-copy_list.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/19-copy_list.py): a function that returns a copy of a list.
 ### 20. Tuple or not?
 * [20-answer.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/20-answer.txt): The Answer to:-
+  * Is a a tuple? Answer with Yes or No.
 <pre>
 a = ()
 </pre>
-  * Is a a tuple? Answer with Yes or No.
+
 ### 21. Tuple or not?
 * [21-answer.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/21-answer.txt): The Answer to:-
 <pre>
@@ -169,14 +170,15 @@ a = (1, 2)
   * Is a a tuple? Answer with Yes or No.
 ### 22. Tuple or not?
 * [22-answer.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/22-answer.txt): The Answer to:-
+  * Is a a tuple? Answer with Yes or No.
 <pre>
 a = (1)
 </pre>
-  * Is a a tuple? Answer with Yes or No.
+
 ### 23. Tuple or not?
 * [23-answer.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/23-answer.txt): The Answer to:-
+  * Is a a tuple? Answer with Yes or No.
 <pre>
 a = (1, )
 </pre>
-  * Is a a tuple? Answer with Yes or No.
 ### 
