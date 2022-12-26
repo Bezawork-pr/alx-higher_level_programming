@@ -120,7 +120,7 @@ Constraints: Not allowed to import any module.
       * Same length as my_list
       * Each value should be multiplied by number
    * Initial list is not modified.
-   <pre>
+<pre>
 Constraints:
 
 Have to use map.
@@ -135,7 +135,7 @@ Not allowed to import any module.
  ### 13. Weighted average!
  * [100-weight_average.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/100-weight_average.py): A function that returns the weighted average of all integers tuple (<score>, <weight>)
     * Returns 0 if the list is empty.
-  <pre>
+<pre>
 Constraints: Not allowed to import any module.
 </pre>
  ### 14. Squared by using map
