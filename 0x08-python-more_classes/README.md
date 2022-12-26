@@ -1,27 +1,4 @@
-General
-Why Python programming is awesome
-What is OOP
-“first-class everything”
-What is a class
-What is an object and an instance
-What is the difference between a class and an object or instance
-What is an attribute
-What are and how to use public, protected and private attributes
-What is self
-What is a method
-What is the special __init__ method and how to use it
-What is Data Abstraction, Data Encapsulation, and Information Hiding
-What is a property
-What is the difference between an attribute and a property in Python
-What is the Pythonic way to write getters and setters in Python
-What are the special __str__ and __repr__ methods and how to use them
-What is the difference between __str__ and __repr__
-What is a class attribute
-What is the difference between a object attribute and a class attribute
-What is a class method
-What is a static method
-How to dynamically create arbitrary new attributes for existing instances of a class
-How to bind attributes to object and classes
-What is and what does contain __dict__ of a class and of an instance of a class
-How does Python find the attributes of an object or class
-How to use the getattr function
+# <pre> Python - More Classes and Objects </pre>
+This project is a continuation from previous project Python classes. This project further deep dives in to Data Abstraction, Data Encapsulation, Information Hiding and  property. Magic method __str__ and __repr__ are also discussed here. We also learned about class method and static method.
+## <pre> Function prototypes    <img src="https://user-images.githubusercontent.com/107026397/209424557-72ec9e7b-8f5a-4c69-9136-2629ca6d2ab0.svg" width = 3% height= 3%> </pre>
+## <pre> Tasks   <img src="https://user-images.githubusercontent.com/107026397/209425131-1d190ca6-b53b-49a9-b00a-6d697c9e4473.svg" height=3% width=3%></pre>
