@@ -46,7 +46,7 @@ Not allowed to use type()
 </pre> 
 ### 2. Print and count integers
 * [2-safe_print_list_integers.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x05-python-exceptions/2-safe_print_list_integers.py): A function that prints the first x elements of a list and only integers.
-      *  Assumption:
+         *  Assumption:
             * my_list can contain any type (integer, string, etc.)
             * x represents the number of elements to access in my_list
             * x can be bigger than the length of my_list- if it’s the case, an exception is expected to occur
