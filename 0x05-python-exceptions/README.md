@@ -28,6 +28,34 @@ Have to use try: / except.
 Not allowed to import any module.
 Not allowed to use len()
 </pre>
+### 1. Safe printing of an integers list
+* [1-safe_print_integer.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x05-python-exceptions/1-safe_print_integer.py): A function that prints an integer with "{:d}".format().
+      * Assumption:
+            * Value can be any type (integer, string, etc.)
+      * The integer is printed followed by a new line.
+      *  Returns True if value has been correctly printed (it means the value is an integer)
+      *  Returns False Otherwise
+<pre>
+Constraints:
+
+Have to use try: / except.
+Have to use "{:d}".format() to print as integer.
+Not allowed to import any module.
+Not allowed to use type()
+</pre> 
+### 2. Print and count integers
+* [2-safe_print_list_integers.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x05-python-exceptions/2-safe_print_list_integers.py): A function that prints the first x elements of a list and only integers.
+         *  Assumption:
+            * my_list can contain any type (integer, string, etc.)
+            * x represents the number of elements to access in my_list
+            * x can be bigger than the length of my_list- if it’s the case, an exception is expected to occur
+      * Returns the real number of integers printed
+<pre>
+Constraints:
+Have to use try: / except.
+Have to use "{:d}".format() to print an integer.
+not allowed to use len()
+</pre>
 
 
 
