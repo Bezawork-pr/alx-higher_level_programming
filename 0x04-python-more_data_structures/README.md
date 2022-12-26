@@ -21,3 +21,14 @@ This project targets mastering how to use sets, how to iterate through sets, how
 |102-complex_delete.py|def complex_delete(a_dictionary, value):|
 
 ## <pre> Tasks   <img src="https://user-images.githubusercontent.com/107026397/209425131-1d190ca6-b53b-49a9-b00a-6d697c9e4473.svg" height=3% width=3%></pre>
+### 0. Squared simple
+* [0-square_matrix_simple.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/0-square_matrix_simple.py): A function that computes the square value of all integers of a matrix.
+  * Returns a new matrix:
+    * Same size as matrix
+    * Each value is the square of the value of the input  
+<pre>
+Constraints:
+
+Initial matrix should not be modified.
+Not allowed to import any module.
+</pre>
