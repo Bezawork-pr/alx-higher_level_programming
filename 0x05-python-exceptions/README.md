@@ -98,6 +98,18 @@ Constraints: Not allowed to import any module.
 <pre>
 Constraints: Not allowed to import any module.
 </pre>
+### 7. Safe integer print with error message
+* [100-safe_print_integer_err.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x05-python-exceptions/100-safe_print_integer_err.py): A function that prints an integer.
+    * Assumption:
+        * value can be any type (integer, string, etc.)
+    * Returns True if value has been correctly printed (it means the value is an integer)
+    * Otherwise, returns False and prints in stderr the error precede by Exception:
+<pre>
+Constraints:  
+Have to use try: / except:
+Have to use "{:d}".format() to print as integer.
+Not allowed to use type()
+</pre>  
 []()
 
 
