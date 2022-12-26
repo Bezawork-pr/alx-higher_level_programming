@@ -52,23 +52,17 @@ Not allowed to import any module.
 ### 3. Present in both
 * [3-common_elements.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/3-common_elements.py): A function that returns a set of common elements in two sets.
 <pre>
-Constraints:
-
-Not allowed to import any module.
+Constraints: Not allowed to import any module.
 </pre>
 ### 4. Only differents
 * [4-only_diff_elements.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/4-only_diff_elements.py): A function that returns a set of all elements present in only one set.
 <pre>
-Constraints:
-
-Not allowed to import any module.
+Constraints: Not allowed to import any module.
 </pre>
 ### 5. Number of keys
 * [5-number_keys.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/5-number_keys.py): A function that returns the number of keys in a dictionary.
 <pre>
-Constraints:
-
-Not allowed to import any module.
+Constraints: Not allowed to import any module.
 </pre>
 ### 6. Print sorted dictionary
 * [6-print_sorted_dictionary.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/6-print_sorted_dictionary.py): A function that prints a dictionary by ordered keys.
@@ -76,9 +70,7 @@ Not allowed to import any module.
    * Sorted keys of the first level.
    * Dictionary values can have any type
 <pre>
-Constraints:
-
-Not allowed to import any module.
+Constraints: Not allowed to import any module.
 </pre>
 ### 7. Update dictionary
 * [7-update_dictionary.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/7-update_dictionary.py): A function that replaces or adds key/value in a dictionary.
