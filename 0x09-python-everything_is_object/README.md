@@ -164,10 +164,11 @@ a = ()
 
 ### 21. Tuple or not?
 * [21-answer.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/21-answer.txt): The Answer to:-
+  * Is a a tuple? Answer with Yes or No.
 <pre>
 a = (1, 2)
 </pre>
-  * Is a a tuple? Answer with Yes or No.
+
 ### 22. Tuple or not?
 * [22-answer.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/22-answer.txt): The Answer to:-
   * Is a a tuple? Answer with Yes or No.
@@ -181,4 +182,73 @@ a = (1)
 <pre>
 a = (1, )
 </pre>
-### 
+### 24. Who I am?
+* [24-answer.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/24-answer.txt): The Answer to:-
+  * What does this script print?
+<pre>
+a = (1)
+b = (1)
+a is b
+</pre>
+### 25. Tuple or not
+* [25-answer.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/25-answer.txt): The Answer to:-
+  * What does this script print?
+<pre>
+a = (1, 2)
+b = (1, 2)
+a is b
+</pre> 
+### 26. Empty is not empty
+* [26-answer.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/26-answer.txt): The Answer to:-
+  * What does this script print?
+<pre>
+a = ()
+b = ()
+a is b
+</pre>
+### 27. Still the same?
+* [27-answer.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/27-answer.txt): The Answer to:-
+  * Will the last line of this script print 139926795932424? Answer with Yes or No.
+<pre>
+>>> id(a)
+139926795932424
+>>> a
+[1, 2, 3, 4]
+>>> a = a + [5]
+>>> id(a)
+</pre>
+### 28. Same or not?
+* [28-answer.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/28-answer.txt): The Answer to:-
+  * Will the last line of this script print 139926795932424? Answer with Yes or No.
+<pre>
+>>> a
+[1, 2, 3]
+>>> id (a)
+139926795932424
+>>> a += [4]
+>>> id(a)
+</pre>
+### 29. #pythonic
+* [100-magic_string.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/100-magic_string.py): a function hat returns a string “BestSchool” n times 
+<pre>
+BestSchool$
+BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
+</pre>
+### 30. Low memory cost
+* [101-locked_class.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/101-locked_class.py): class LockedClass with no class or object attribute, that prevents the user from dynamically creating new instance attributes, except if the new instance attribute is called first_name.
+<pre>
+Constraint: Not allowed to import any module.
+</pre>
+### 31. int 1/3
+* [103-line1.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/103-line1.txt), [103-line2.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/103-line2.txt): The Answer to:
+ * Assuming we are using a CPython implementation of Python3 with default options/configuration:
+   * How many int objects are created by the execution of the first line of the script? (103-line1.txt)
+   * How many int objects are created by the execution of the second line of the script (103-line2.txt)
