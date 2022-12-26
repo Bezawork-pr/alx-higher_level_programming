@@ -33,7 +33,7 @@ Constraints: Not allowed to import any module.
 ### 2. Say my name
 * [3-say_my_name.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/3-say_my_name.py): A function that prints My name is first name last name
   * first_name and last_name must be strings otherwise, raise a TypeError exception with the message first_name must be a string or last_name must be a string
-  * [3-say_my_name.txt)](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/tests/3-say_my_name.txt) : Tests for the function in 3-say_my_name.py
+  * [3-say_my_name.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/tests/3-say_my_name.txt) : Tests for the function in 3-say_my_name.py
  <pre>
 Constraints: Not allowed to import any module.
 </pre> 
@@ -46,6 +46,12 @@ Constraints: Not allowed to import any module.
 <pre>
 Constraints: Not allowed to import any module.
 </pre> 
+### 5. Max integer - Unittest
+* [6-max_integer_test.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/tests/6-max_integer_test.py): 
+  *  file should be inside a folder tests.
+  *  Have to use the unittest module.
+  *  Test file should be python files (extension: .py)
+  *  Test file should be executed by using this command: python3 -m unittest tests.6-max_integer_test
  
  
 
