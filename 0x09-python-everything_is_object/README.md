@@ -130,3 +130,53 @@ a = 1
 increment(a)
 print(a)
 </pre>
+### 17. List incrementation
+* [17-answer.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/17-answer.txt): The Answer to:-
+  * What does this script print?
+<pre>
+def increment(n):
+    n.append(4)
+
+l = [1, 2, 3]
+increment(l)
+print(l)
+</pre>
+### 18. List assignation
+* [18-answer.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/18-answer.txt): The Answer to:-
+  * What does this script print?
+<pre>
+def assign_value(n, v):
+    n = v
+
+l1 = [1, 2, 3]
+l2 = [4, 5, 6]
+assign_value(l1, l2)
+print(l1)
+</pre>
+### 19. Copy a list object
+* [19-copy_list.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/19-copy_list.py): a function that returns a copy of a list.
+### 20. Tuple or not?
+* [20-answer.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/20-answer.txt): The Answer to:-
+<pre>
+a = ()
+</pre>
+  * Is a a tuple? Answer with Yes or No.
+### 21. Tuple or not?
+* [21-answer.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/21-answer.txt): The Answer to:-
+<pre>
+a = (1, 2)
+</pre>
+  * Is a a tuple? Answer with Yes or No.
+### 22. Tuple or not?
+* [22-answer.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/22-answer.txt): The Answer to:-
+<pre>
+a = (1)
+</pre>
+  * Is a a tuple? Answer with Yes or No.
+### 23. Tuple or not?
+* [23-answer.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/23-answer.txt): The Answer to:-
+<pre>
+a = (1, )
+</pre>
+  * Is a a tuple? Answer with Yes or No.
+### 
