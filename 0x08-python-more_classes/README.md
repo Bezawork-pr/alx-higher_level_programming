@@ -1,4 +1,24 @@
 # <pre> Python - More Classes and Objects </pre>
 This project is a continuation from previous project Python classes. This project further deep dives in to Data Abstraction, Data Encapsulation, Information Hiding and  property. Magic method __str__ and __repr__ are also discussed here. We also learned about class method and static method.
-## <pre> Function prototypes    <img src="https://user-images.githubusercontent.com/107026397/209424557-72ec9e7b-8f5a-4c69-9136-2629ca6d2ab0.svg" width = 3% height= 3%> </pre>
 ## <pre> Tasks   <img src="https://user-images.githubusercontent.com/107026397/209425131-1d190ca6-b53b-49a9-b00a-6d697c9e4473.svg" height=3% width=3%></pre>
+### 0. Simple rectangle
+* [0-rectangle.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x08-python-more_classes/0-rectangle.py):  An empty class Rectangle that defines a rectangle:
+<pre>
+Constraint: Not allowed to import any module
+</pre>
+### 1. Real definition of a rectangle
+* [1-rectangle.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x08-python-more_classes/1-rectangle.py): a class Rectangle that defines a rectangle by: (based on 0-rectangle.py)
+    * Private instance attribute: width:
+        * Property def width(self): to retrieve it
+        * Property setter def width(self, value): to set it:
+            * width must be an integer, otherwise raise a TypeError exception with the message width must be an integer
+            * if width is less than 0, raise a ValueError exception with the message width must be >= 0
+    * Private instance attribute: height:
+      * Property def height(self): to retrieve it
+      * Property setter def height(self, value): to set it:
+          * Height must be an integer, otherwise raise a TypeError exception with the message height must be an integer
+          * if height is less than 0, raise a ValueError exception with the message height must be >= 0
+    * Instantiation with optional width and height: def __init__(self, width=0, height=0):
+  <pre>
+  Constraint: Not allowed to import any module
+  </pre>
