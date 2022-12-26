@@ -122,7 +122,7 @@ Constraints:  Have to use try: / except:
 ### 9. ByteCode -> Python #4
 * [102-magic_calculation.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x05-python-exceptions/102-magic_calculation.py): Python function that does exactly the same as the following Python bytecode:
 <pre>
- 3           0 LOAD_CONST               1 (0)
+  3           0 LOAD_CONST               1 (0)
               3 STORE_FAST               2 (result)
 
   4           6 SETUP_LOOP              94 (to 103)
