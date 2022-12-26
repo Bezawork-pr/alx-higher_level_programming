@@ -119,3 +119,14 @@ l2 = l1
 l1 = l1 + [4]
 print(l2)
 </pre>
+### 16. Integer incrementation
+* [16-answer.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/16-answer.txt): The Answer to:-
+  * What does this script print?
+<pre>
+def increment(n):
+    n += 1
+
+a = 1
+increment(a)
+print(a)
+</pre>
