@@ -260,3 +260,15 @@ Constraint: Not allowed to import any module.
     * After the execution of line 3, is the int object pointed by a deleted? Answer with Yes or No (104-line3.txt)
     * After the execution of line 4, is the int object pointed by b deleted? Answer with Yes or No (104-line4.txt)
     * How many int objects are created by the execution of the last line of the script (104-line5.txt) 
+### 33. int 3/3
+* [105-line1.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/105-line1.txt): Assuming we are using a CPython implementation of Python3 with default options/configuration:
+  * Before the execution of line 2 (print("Love")), how many int objects have been created and are still in memory? (105-line1.txt)
+  * Why? (optional blog post :))
+### 34. Clear strings
+* [106-line1.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/106-line1.txt), [106-line2.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/106-line2.txt), [106-line3.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/106-line3.txt), [106-line4.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/106-line4.txt), [106-line5.txt](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/106-line5.txt): The Answer to:-
+   *  Assuming we are using a CPython implementation of Python3 with default options/configuration (For answers with numbers use integers, don’t spell out the word):
+     *  How many string objects are created by the execution of the first line of the script? (106-line1.txt)
+     *  How many string objects are created by the execution of the second line of the script (106-line2.txt)
+     *  After the execution of line 3, is the string object pointed by a deleted? Answer with Yes or No (106-line3.txt)
+     *  After the execution of line 4, is the string object pointed by b deleted? Answer with Yes or No (106-line4.txt)
+     *  How many string objects are created by the execution of the last line of the script (106-line5.txt)
