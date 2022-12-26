@@ -34,9 +34,9 @@ Not allowed to import any module.
 </pre>
 ### 1. Search and replace
 * [1-search_replace.py](https://github.com/Bezawork-pr/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/1-search_replace.py): A function that replaces all occurrences of an element by another in a new list.
- * my_list is the initial list
- * search is the element to replace in the list
- * replace is the new element
+   * my_list is the initial list
+   * search is the element to replace in the list
+   * replace is the new element
 <pre>
 Constraints:
 
