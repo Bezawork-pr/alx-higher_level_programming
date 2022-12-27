@@ -1,12 +1,14 @@
 #!/usr/bin/python3
 """
 1: Take mysql username, mysql password and database
-2: Fetch all the rows that contain the letter a
+2: Fetch states name, City id and City name
 """
 import sys
 import MySQLdb
 from model_state import Base, State
 from model_city import City
+
+
 if __name__ == "__main__":
     db = MySQLdb.connect(user=sys.argv[1],
                          password=sys.argv[2], database=sys.argv[3])
