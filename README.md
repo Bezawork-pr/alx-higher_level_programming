@@ -1,8 +1,8 @@
 # <pre> ALX Higher Level programming     <img src="https://user-images.githubusercontent.com/107026397/209780362-7bffc098-e7a2-4ecb-a078-6f62fba02e73.png" height = 5% width= 5%></pre>
-## Description
-
+# Description
 This repository contains higher-level programming language projects taught by ALX. It contains Python, Javascript, and SQL. This project are part of the second semester. This repository contains projects that are part of the second semester and continuing. Other projects like C and bash are included in a separate repository.
-| Projects | Description|
+# Projects
+| <h3>Projects </h3>| <h3>Description</h3>|
 | ------------- | ------------- |
 | [0x00-python-hello_world](https://github.com/Bezawork-pr/alx-higher_level_programming/tree/master/0x00-python-hello_world) | <pre> Python Programming basic intoduction     </pre>|
 | [0x01-python-if_else_loops_functions](https://github.com/Bezawork-pr/alx-higher_level_programming/tree/master/0x01-python-if_else_loops_functions)| <pre> Python if/else, loops and functions </pre> |
@@ -25,4 +25,5 @@ This repository contains higher-level programming language projects taught by AL
 
 # Author
 Bezawork B Lindlof - [Bezawork-pr](https://github.com/Bezawork-pr)
+
  
