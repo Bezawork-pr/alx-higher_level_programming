@@ -23,6 +23,6 @@ This repository contains higher-level programming language projects taught by AL
 | [0x12-javascript-warm_up](https://github.com/Bezawork-pr/alx-higher_level_programming/tree/master/0x12-javascript-warm_up) | <pre> Javascript warm up  </pre>|
 | [0x13-javascript_objects_scopes_closures](https://github.com/Bezawork-pr/alx-higher_level_programming/tree/master/0x13-javascript_objects_scopes_closures)|<pre> Javascript objects scopes closures  </pre>|
 
-
-
+# Author
+Bezawork B Lindlof - [Bezawork-pr](https://github.com/Bezawork-pr)
  
