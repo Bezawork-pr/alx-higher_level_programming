@@ -3,6 +3,8 @@
 This file contains a function that returns a peak
 from an array
 """
+
+
 def find_peak(list_of_integers):
     """function find_peak:
         finds a peak in an array
@@ -21,10 +23,10 @@ def find_peak(list_of_integers):
             if list_of_integers[1] <= list_of_integers[0]:
                 return list_of_integers[0]
         elif i == last_index:
-            if list_of_integers[last_index] >= list_of_integers[last_index - 1]:
+            if list_of_integers[last_index] \
+                    >= list_of_integers[last_index - 1]:
                 return list_of_integers[last_index]
         else:
             if list_of_integers[i] >= list_of_integers[i - 1] and \
                     list_of_integers[i] >= list_of_integers[i + 1]:
-                    return list_of_integers[i]
-
+                return list_of_integers[i]
