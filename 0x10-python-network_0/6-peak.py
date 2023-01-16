@@ -1,5 +1,12 @@
 #!/usr/bin/python3
+"""
+This file contains a function that returns a peak
+from an array
+"""
 def find_peak(list_of_integers):
+    """function find_peak:
+        finds a peak in an array
+        and returns it"""
     if list_of_integers is None or len(list_of_integers) == 0:
         return
     length = len(list_of_integers)
