@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-""" This file contains a function that returns a peak from an array"""
+""" This file contains a function that returns a peak from an array
+I have used a while loop to get the peak"""
 
 
 def find_peak(list_of_integers):
