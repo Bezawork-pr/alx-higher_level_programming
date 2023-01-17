@@ -14,10 +14,10 @@ if __name__ == "__main__":
         q = sys.argv[1]
     my_dict = {"q", q}
     response = requests.post(url, data = my_dict)
-    if reponse.json() != {}:
-        print("[{}] {}".format(reponse.get("id"), response.get("name")))
-    elif response.text == {}:
-        print("No result")
-    else:
+    try:
+        if reponse.json() == {}:
+            print("No result")
+        else:
+            print("[{}] {}".format(reponse.get("id"), response.get("name")))
+    except Exception as error:
         print("Not a valid JSON")
-
