@@ -13,7 +13,7 @@ if __name__ == "__main__":
     else:
         q = sys.argv[1]
     my_dict = {"q", q}
-    response = requests.post(url, data = my_dict)
+    response = requests.post(url, data=my_dict)
     try:
         if reponse.json() == {}:
             print("No result")
