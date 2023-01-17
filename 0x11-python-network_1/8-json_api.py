@@ -12,8 +12,8 @@ if __name__ == "__main__":
         q = ""
     else:
         q = sys.argv[1]
-    url + "?" + q
-    response = requests.post(url)
+    my_dict = {"q", q}
+    response = requests.post(url, data = my_dict)
     if reponse.json() != {}:
         print("[{}] {}".format(reponse.get("id"), response.get("name")))
     elif response.text == {}:
