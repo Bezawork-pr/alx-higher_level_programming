@@ -10,5 +10,5 @@ if __name__ == "__main__":
     url = sys.argv[1]
     value = {}
     value['email'] = sys.argv[2]
-    content = requests.post(url, json = value)
+    content = requests.post(url, data = value)
     print(content.text)
