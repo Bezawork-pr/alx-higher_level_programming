@@ -8,13 +8,11 @@ import requests
 
 if __name__ == "__main__":
     url = "http://0.0.0.0:5000/search_user"
-    my_dict = {}
     if len(sys.argv) == 1:
         q = ""
     else:
         q = sys.argv[1]
-    my_dict['q'] = q
-    response = requests.post(url, data=my_dict)
+    response = requests.post(url, data={'q': q})
     try:
         response = response.json()
         if reponse == {}:
