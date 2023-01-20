@@ -16,7 +16,7 @@ if __name__ == "__main__":
     my_dict['q'] = q
     response = requests.post(url, data=my_dict).json()
     try:
-        if len(reponse) == 0:
+        if reponse == {}:
             print("No result")
         else:
             print("[{}] {}".format(reponse.get("id"), response.get("name")))
