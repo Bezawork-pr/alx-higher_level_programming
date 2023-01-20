@@ -14,8 +14,9 @@ if __name__ == "__main__":
     else:
         q = sys.argv[1]
     my_dict['q'] = q
-    response = requests.post(url, data=my_dict).json()
+    response = requests.post(url, data=my_dict)
     try:
+        response = response.json()
         if reponse == {}:
             print("No result")
         else:
