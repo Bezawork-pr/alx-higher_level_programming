@@ -1,8 +1,10 @@
 #!/usr/bin/node
-link = process.argv[2];
-async function getStatus() {
-  const response = await fetch(link);
-  console.log(response.status);
-}
-getStatus();
-
+const url = process.argv[2];
+const request = require('request');
+const requestSettings = {
+  method: 'HEAD',
+  url: url
+};
+request(requestSettings, function (err, response) {
+  console.log(err || response.statusCode);
+});
